@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <InstallMinchoWitch_MintchocoLimb.label>install mintchoco limb</InstallMinchoWitch_MintchocoLimb.label>
+  <InstallMinchoWitch_MintchocoLimb.description>There's no reason must to do that, but turn limbs into mintchoco.</InstallMinchoWitch_MintchocoLimb.description>
+  <InstallMinchoWitch_MintchocoLimb.jobString>Installing mintchoco limb.</InstallMinchoWitch_MintchocoLimb.jobString>
+  <RemoveMinchoWitch_MintchocoLimb.label>remove mintchoco limb</RemoveMinchoWitch_MintchocoLimb.label>
+  <RemoveMinchoWitch_MintchocoLimb.description>Remove mintchoco limb.</RemoveMinchoWitch_MintchocoLimb.description>
+  <RemoveMinchoWitch_MintchocoLimb.jobString>Removing mintchoco limb.</RemoveMinchoWitch_MintchocoLimb.jobString>
+</LanguageData>

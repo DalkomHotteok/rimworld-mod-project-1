@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Abstract="True" Name="MinchoFalloutSpireBase" ParentName="BuildingBase">
+    <size>(3,2)</size>
+    <passability>Impassable</passability>
+    <fillPercent>1</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
+    <receivesSignals>true</receivesSignals>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <drawerType>MapMeshOnly</drawerType>
+    <repairEffect>ConstructMetal</repairEffect>
+    <forceDebugSpawnable>true</forceDebugSpawnable>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <neverMultiSelect>true</neverMultiSelect>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>-200</Beauty>
+    </statBases>
+    <killedLeavings>
+		<!--null-->
+    </killedLeavings>
+    <damageMultipliers>
+      <li>
+        <damageDef>Flame</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+    </damageMultipliers>
+    <building>
+      <combatPower>250</combatPower>
+      <claimable>false</claimable>
+      <roofCollapseDamageMultiplier>0.2</roofCollapseDamageMultiplier>
+    </building>
+    <comps>
+      <!--<li Class="CompProperties_WakeUpDormant"/>-->
+    </comps>
+  </ThingDef>
+
+
+  <ThingDef ParentName="MinchoFalloutSpireBase">
+    <defName>MinchoFalloutBeacon</defName>
+    <label>minchofallout beacon</label>
+    <description>This is a special psychic beacon that triggers a ""Mincho fallout"" at the target. Mincho fallout is a phenomenon in which mutated mechanites are sprinkled from the sky, and when exposed to this Mincho fallout even little, a Mincho infection occurs and eventually becomes a Mincho.\n\nMincho fallout was one of the most important elements of the ""Marilyn Plan"" along with the Marilyn herself. It was to cause a Mincho fallout at the base of the forces that were hostile to the empire, and let Marilyn take control of these Minchos and use them as soldiers.\n\nMarilyn herself didn't know about the satellite's control, but it was in her hand.</description>
+    <graphicData>
+      <texPath>MinchoWitch/MinchoFalloutBeacon/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_CausesGameCondition">
+        <conditionDef>MinchoFallout</conditionDef>
+        <compClass>CompCauseGameCondition</compClass>
+      </li>
+    </comps>
+    <building>
+      <!--<soundAmbient>CrashedShipPart_Ambience</soundAmbient>-->
+    </building>
+  </ThingDef>
+  
+  
+  <GameConditionDef>
+    <defName>MinchoFallout</defName>
+    <conditionClass>MinchoWitch.GameCondition_MinchoFallout</conditionClass>
+    <label>mincho fallout</label>
+    <description>Mincho fallout caused by Mincho fallout beacon is slowly settling over this entire region. Any living thing not under a roof, except for plants, will be slowly mutated.</description>
+    <descriptionFuture>a cloud of Mincho fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], mutating outdoor animal.</descriptionFuture>
+    <endMessage>The worst of the Mincho fallout has settled.</endMessage>
+    <letterText>Because of Mincho fallout caused by Mincho fallout beacon, released mutated mechanites over this entire region.\n\nAny person or creature not under a roof will be slowly infected by mutated mechanites settling out of the atmosphere.\n\nIt continues as long as it does not destroy the Mincho fallout beacon.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <canBePermanent>true</canBePermanent>
+  </GameConditionDef>
+</Defs>
+  

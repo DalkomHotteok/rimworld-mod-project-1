@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Marilyn the Mincho Worshipper Witch</name>
+	<author>SutSutMan</author>
+	<packageId>SutSutMan.MarilyntheMinchoWorshipperWitch</packageId>
+	<url>https://steamcommunity.com/profiles/76561198111219241/myworkshopfiles/?appid=294100</url>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>Dalrae.GaramRaceAddon</packageId>
+			<displayName>Garam, Race Addon</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2006250853</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>gguake.apparelbodyresolver</packageId>
+			<displayName>Apparel BodyType Resolver</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2037354634</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>gguake.apparelbodyresolver</li>
+		<li>Dalrae.GaramRaceAddon</li>
+	</loadAfter>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>
+
+========== Info ==========
+
+Mod Version: 1.0.1-201115
+
+&lt;color=orange&gt;This mod add a Marilyn the Mincho Worshipper Witch.&lt;/color&gt;
+
+마릴린은 정확히 말하자면 종족이라기 보단 엘리트 림(폰)에 가깝습니다. 하지만 시스템상 인간과는 별도의 종족으로 분리됩니다.
+
+Marilyn, to be exact, is more of an elite Pawn than a race. But the system separates them into separate race from humans.
+
+========== Developers ==========
+
+[Producer]
+　　[SutSutMan - 섯섯맨]
+
+[Code]
+(Mincho - transformation)
+　　[Madeline - 매들린]
+	[Dalrae - 달래]
+
+[Art]
+(Clothing, Character design)
+	[Latki - 랏키]
+(Mint choco Golem)
+	[Nemonian - 네모냥]
+
+[Special Thanks]
+　　[Everyone at RimWorld Korea Discord Server]
+
+========== Copyright ==========
+
+모든 저작권은 [SuSutMan]에게 있습니다. 이 콘텐츠는 Steam 계정 이름 [ENOHIDAYO] 을 제외한 타인이 배포하는것이 허락되지 않았습니다.
+All copyrights are by [SuSutMan]. This content is not allowed to be distributed by anyone other than the Steam account name [ENOHIDAYO].
+
+단, 일부 저작물에 대해서는 도움을 주신 분들에게도 있습니다.
+However, some of the works are copyrighted by those who helped.
+
+========== Incompatible ==========
+
+EdB Prepare Carefully
+[KV] Show Hair With Hats or Hide All Hats (But it works well with Hats Display Selection)
+
+
+========== Patch Notes ==========
+
+[1.0.0-201114] : Mod release.
+[1.0.1-201115] : 민초마녀의 모자의 보호범위 변경, 민초마녀는 민초의 옷을 입을 수 있음.
+
+	</description>
+</ModMetaData>

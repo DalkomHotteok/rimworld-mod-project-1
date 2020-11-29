@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThoughtDef>
+	<defName>MinchoWitch_RaceRatio</defName>
+	<workerClass>MinchoWitch.ThoughtWorker_RaceRatio_MinchoWitch</workerClass>
+	<stages>
+		<li>
+		<!--0마리-->
+			<label>no Mincho</label>
+			<description>There's no Mincho in here. But it's not problem, if it's not there, I just make it.</description>
+			<baseMoodEffect>-2</baseMoodEffect>
+		</li>
+		<li>
+		<!--2마리 이하-->
+			<label>serve to Mincho</label>
+			<description>Your Freshness, I swear to rule you as a master and serve you as a servant at the same time.</description>
+			<baseMoodEffect>2</baseMoodEffect>
+		</li>
+		<li>
+		<!--4마리 이하-->
+			<label>supreme happiness</label>
+			<description>I'm so happy that there are so many Mincho.</description>
+			<baseMoodEffect>4</baseMoodEffect>
+		</li>
+		<li>
+		<!--6마리 이하-->
+			<label>rule and serve</label>
+			<description>It's good to rule the Minchos, but it's also very happy to be ruled by them.</description>
+			<baseMoodEffect>6</baseMoodEffect>
+		</li>
+		<li>
+		<!--7마리 이상-->
+			<label>oblivion of hatred</label>
+			<description>I don't care the days when I was experimented by the Empire any more. I just want to live here with the Minchos forever.</description>
+			<baseMoodEffect>8</baseMoodEffect>
+		</li>
+	</stages>
+</ThoughtDef>
+
+<ThoughtDef>
+	<defName>Mincho_RaceRatio</defName>
+	<workerClass>MinchoWitch.ThoughtWorker_RaceRatio_Mincho</workerClass>
+	<stages>
+		<li>
+			<label>opinions on the Minchowitch</label>
+			<description>I'm so glad she does many things for us, but sometimes... I think she is going too far.  Such as transforms other race into my kind. I'm happy to have more of my kind, but play with other race make me more happy and... excited.</description>
+			<baseMoodEffect>3</baseMoodEffect>
+		</li>
+	</stages>
+</ThoughtDef>
+
+
+</Defs>

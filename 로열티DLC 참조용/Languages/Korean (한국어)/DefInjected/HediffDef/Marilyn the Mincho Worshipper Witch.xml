@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- minchowitch's potion cool -->
+  <MinchoWitch_PotionHigh.label>민초마녀의 묘약의 상쾌함</MinchoWitch_PotionHigh.label>
+  <!-- Drinking the potion made by the Minchowitch gives a strong refreshing feeling to the whole body. -->
+  <MinchoWitch_PotionHigh.description>민초마녀가 만든 묘약을 마셔 전신에 강한 상쾌감이 돕니다.</MinchoWitch_PotionHigh.description>
+  <!-- ingest minchowitch's potion -->
+  <MinchoWitch_PotionHigh.stages.0.label>민초마녀의 묘약을 마심</MinchoWitch_PotionHigh.stages.0.label>
+  <!-- mechanites tolerance exceeded -->
+  <MinchoWitch_PotionHigh.stages.1.label>메카나이트 허용치 초과</MinchoWitch_PotionHigh.stages.1.label>
+  <!-- minchowitch's potion cool -->
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.label>민초마녀의 묘약의 상쾌함</MinchoWitch_PotionHigh_MinchoWitchOnly.label>
+  <!-- Drinking the potion made by the Minchowitch gives a strong refreshing feeling to the whole body. However, the effect does not last long due to the strong detoxification power of the Minchowitch itself. -->
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.description>민초마녀가 만든 묘약을 마셔 전신에 강한 상쾌감이 돕니다. 단, 민초마녀 본인의 강한 해독력으로 인해 효과는 오래가지 않습니다.</MinchoWitch_PotionHigh_MinchoWitchOnly.description>
+  <!-- ingest minchowitch's potion -->
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.label>민초마녀의 묘약을 마심</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.label>
+  <!-- the privileges of the Minchowitch -->
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.label>민초마녀의 특권</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.label>
+  <!-- minchowitch's potion cool -->
+  <MinchoWitch_PotionHigh_MinchoOnly.label>민초마녀의 묘약의 상쾌함</MinchoWitch_PotionHigh_MinchoOnly.label>
+  <!-- Drinking the potion made by the Minchowitch gives a strong refreshing feeling to the whole body. However, the effect does not last long due to the strong detoxification power of the Mincho itself. -->
+  <MinchoWitch_PotionHigh_MinchoOnly.description>민초마녀가 만든 묘약을 마셔 전신에 강한 상쾌감이 돕니다. 단, 민초들의 매우 강한 해독력으로 인해 효과는 오래가지 않습니다.</MinchoWitch_PotionHigh_MinchoOnly.description>
+  <!-- ingest minchowitch's potion -->
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.0.label>민초마녀의 묘약을 마심</MinchoWitch_PotionHigh_MinchoOnly.stages.0.label>
+  <!-- the privileges of the Mincho -->
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.1.label>민초의 특권</MinchoWitch_PotionHigh_MinchoOnly.stages.1.label>
+  <!-- mincho infection -->
+  <Mincho_Infection.label>민초 감염</Mincho_Infection.label>
+  <!-- It is a disease that occurs when mutated mechanites is not released out of the body and is over-accumulated in the body. This over-accumulation is caused by mincho beam, mintchoco fallout, and the taking of Minchowitch' potion. This over-accumulation can only be treated through the special serum..\n\nThe creature's body that gets this disease is slowly decomposed and restructured by mutated mechanites, and some part of the body becomes mintchoco and eventually becomes Mincho..\n\nThe moment become Mincho, the equipment and belongings become mintchoco too. But colonists are aware of the disease, so this doesn't happen by throwing away what they were picking right before they become Mincho. -->
+  <Mincho_Infection.description>변종 메카나이트가 체외로 배출되지 못하고 몸 안에 과축적되면 발생하는 질병입니다. 이 과축적은 민초빔, 민초낙진, 민초마녀의 물약 섭취 등으로 인해 발생합니다. 이 과축적은 민초감염 치료 혈청을 통해서만 치료할 수 있습니다.\n\n이 질병에 걸린 생명체는 신체가 변종 메카나이트에 의해 서서히 분해 및 재구성되며, 신체 중 일부가 민트초코가 되고, 결국에는 민초가 됩니다.\n\n민초가 되는 순간에는 장비와 가지고 있는 물건들마저 민트초코로 만들어 버립니다. 하지만 정착민들은 이 질병에 대해 인지를 하고 있기에 민초가 되기 직전에 들고 있던 것들을 버림으로써 이러한 일이 일어나지 않습니다.</Mincho_Infection.description>
+  <!-- {0} : Mincho infection -->
+  <Mincho_Infection.comps.0.ConverLetterLabel>{0} : 민초 감염</Mincho_Infection.comps.0.ConverLetterLabel>
+  <!-- {0} has mutated! -->
+  <Mincho_Infection.comps.0.ConverLetterText>{0}가 변이했습니다!</Mincho_Infection.comps.0.ConverLetterText>
+  <!-- minor -->
+  <Mincho_Infection.stages.0.label>가벼움</Mincho_Infection.stages.0.label>
+  <!-- moderate -->
+  <Mincho_Infection.stages.1.label>진행됨</Mincho_Infection.stages.1.label>
+  <!-- severe -->
+  <Mincho_Infection.stages.2.label>심각함</Mincho_Infection.stages.2.label>
+  <!-- extreme -->
+  <Mincho_Infection.stages.3.label>극심함</Mincho_Infection.stages.3.label>
+  <!-- mincho infection instant -->
+  <Mincho_Infection_Instant.label>즉각 민초 감염</Mincho_Infection_Instant.label>
+  <!-- 즉각적으로 민초로 변신시키기 위한 Hediff 입니다 -->
+  <Mincho_Infection_Instant.description>즉각적으로 민초로 변신시키기 위한 Hediff 입니다</Mincho_Infection_Instant.description>
+  <!-- {0} : Ascension -->
+  <Mincho_Infection_Instant.comps.0.ConverLetterLabel>{0} : 승천</Mincho_Infection_Instant.comps.0.ConverLetterLabel>
+  <!-- {0} has ascended! -->
+  <Mincho_Infection_Instant.comps.0.ConverLetterText>{0}가 승천했습니다!</Mincho_Infection_Instant.comps.0.ConverLetterText>
+  <!-- minor -->
+  <Mincho_Infection_Instant.stages.0.label>가벼움</Mincho_Infection_Instant.stages.0.label>
+  <!-- moderate -->
+  <Mincho_Infection_Instant.stages.1.label>진행됨</Mincho_Infection_Instant.stages.1.label>
+  <!-- severe -->
+  <Mincho_Infection_Instant.stages.2.label>심각함</Mincho_Infection_Instant.stages.2.label>
+  <!-- extreme -->
+  <Mincho_Infection_Instant.stages.3.label>극심함</Mincho_Infection_Instant.stages.3.label>
+  <!-- Iced brain -->
+  <MinchoWitch_Iced_Brain.label>얼어붙은 뇌</MinchoWitch_Iced_Brain.label>
+  <!-- It's a phenomenon that occurs when the mutated mechanites temporarily stays in the brain, which absorbs the neural heat of the brain instead. In this process, it gives the consumer a strong freshness. Occurs when large amounts of mintchoco or concentrated mechanites are taken at once, such as MintchocoCake or minchowitch's potion. Because minchowitch's  brain is very sensitive to mechanites , this happens instead of ice-cream headache when eating mintchoco. -->
+  <MinchoWitch_Iced_Brain.description>변종 메카나이트가 뇌에 일시적으로 머물면서 발생하는 현상으로, 메카나이트가 뇌의 신경열을 대신 흡수해줍니다. 이 과정에서 섭취자에게 강한 상쾌함을 줍니다. 민트초코 케이크나 민초마녀의 물약같이 대량의 민트초코 혹은 농축된 메카나이트를 한 번에 섭취했을 때 발생합니다. 민초마녀의 뇌는 메카나이트에 매우 민감하기 때문에 민트초코 아이스크림을 먹어도 아이스크림 두통 대신 이 현상이 발생합니다.</MinchoWitch_Iced_Brain.description>
+  <!-- {0} become Iced brain -->
+  <MinchoWitch_Iced_Brain.comps.0.discoverLetterLabel>{0}의 뇌가 얼어붙었습니다.</MinchoWitch_Iced_Brain.comps.0.discoverLetterLabel>
+  <!-- {0} is so refreshed that head is like freezing. {0} can fast reduce the entropy (neural heat) caused by using psycast. -->
+  <MinchoWitch_Iced_Brain.comps.0.discoverLetterText>{0}의 머리가 얼어붙을 정도로 매우 상쾌해졌습니다. 초능력을 쓰면서 발생하는 엔트로피(신경열)을 더 빨리 줄일 수 있습니다.</MinchoWitch_Iced_Brain.comps.0.discoverLetterText>
+  <!-- mintchoco limb -->
+  <MinchoWitch_MintchocoLimb.label>민트초코 사지</MinchoWitch_MintchocoLimb.label>
+  <!-- a mintchoco limb -->
+  <MinchoWitch_MintchocoLimb.labelNoun>민트초코 사지</MinchoWitch_MintchocoLimb.labelNoun>
+  <!-- Part of her body became mintchoco. It is caused by transplanting mintchoco to a limb through surgery or by Mincho infection. It's very inefficient compared to a normal body. Instead, I get less hungry. -->
+  <MinchoWitch_MintchocoLimb.description>신체중 일부가 민트초코가 되었습니다. 민초감염의 증상, 수술을 통해 민트초코를 사지에 이식, 혹은 민초마녀가 재미로 초능력을 사용해 사지를 민트초코로 바꿔서 발생합니다. 일반적인 신체에 비해 효율이 매우 떨어집니다.</MinchoWitch_MintchocoLimb.description>
+  <!-- mintchoco biofilm -->
+  <MinchoWitch_MintchocoBiofilm.label>민트초코 바이오필름</MinchoWitch_MintchocoBiofilm.label>
+  <!-- a mintchoco biofilm -->
+  <MinchoWitch_MintchocoBiofilm.labelNoun>민트초코 바이오필름</MinchoWitch_MintchocoBiofilm.labelNoun>
+  <!-- Wrapping the target's body in mintchoco slime to protect the target from external shocks. It's fairly heavy, which makes target slower, but doesn't interfere with the swinging the weapon. Although it doesn't have intelligence... It's been a bit of a whatchamacallit because slime is "wriggles". -->
+  <MinchoWitch_MintchocoBiofilm.description>대상의 신체에 지성이 없는 민트초코 슬라임을 감싸 대상을 외부의 충격 등으로부터 보호합니다. 상당히 무겁기 때문에 움직임이 둔해지기는 하나, 무기를 휘두르는 행위를 방해하지는 않습니다. 하지만 지성이 없다고는 하나... 약간 "꾸물"거리기 때문에 좀 그렇고 그렇습니다.</MinchoWitch_MintchocoBiofilm.description>
+  <!-- Golem's toughness -->
+  <MinchoWitch_MinchoGolem_NoPain.label>골렘의 강인함</MinchoWitch_MinchoGolem_NoPain.label>
+  <!-- Golem's toughness -->
+  <MinchoWitch_MinchoGolem_NoPain.description>골렘의 강인함</MinchoWitch_MinchoGolem_NoPain.description>
+  <!-- permanent -->
+  <MinchoWitch_MinchoGolem_NoPain.stages.0.label>영구적</MinchoWitch_MinchoGolem_NoPain.stages.0.label>
+</LanguageData>

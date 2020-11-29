@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MinchoWitch_PlayerFaction.label>MinchoWitch's new colony</MinchoWitch_PlayerFaction.label>
+  <MinchoWitch_PlayerFaction.description>It is the colony of the Mincho.</MinchoWitch_PlayerFaction.description>
+  <MinchoWitch_PlayerFaction.pawnSingular>colonist</MinchoWitch_PlayerFaction.pawnSingular>
+  <MinchoWitch_PlayerFaction.pawnsPlural>colonists</MinchoWitch_PlayerFaction.pawnsPlural>
+</LanguageData>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ScenarioDef>
+		<defName>MinchoWithch_Scenario</defName>
+		<label>Minchowitch's experiment</label>
+		<description>The three subjects, obsessed with the Minchowitch, escaped just before they were offered to the Mincho, but fell into a trap at the last moment. The trap was filled with strangely sweet-smelling gases, but the three subjects were able to escape without any problems.\n\nBut not long before they realized that even escape was part of a mint chocolate witch's experiment...\n\n(Don't choice colonist who Intellectual skill is high)\n\n(Minchowitch joins the colony 8 days later)</description>
+		<scenario>
+			<summary>It is the story of three poor subjects who thought they had escaped the Minchowitch's grasp. But even escaped was part of the experiment.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerColony</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>3</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+				</li>
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<hideOffMap>True</hideOffMap>
+					<hediff>Mincho_Infection</hediff>
+					<severityRange>0.06666667~0.1259259</severityRange>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_BoltActionRifle</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Gun_Revolver</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mincho_MintCandy</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mincho_KnightlyTiara</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mincho_KnightlyDress</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mincho_ChocoCrust</thingDef>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Mincho_Minchonyang</animalKind>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>720</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>7</count>
+				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>We've barely escaped. But body is a little weird...</text>
+					<textKey>GameStartDialog</textKey>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MechSerumResurrector</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MinchoWitch_Cure_Serum</thingDef>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>WandererJoin_MinchoWitch_Scenario</incident>
+					<intervalDays>8</intervalDays>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mincho_ArcanePotion</thingDef>
+					<count>5</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MinchoWitch_Potion</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>WandererJoin_MinchoWitch</incident>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

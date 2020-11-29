@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Mincho_Infection_Colonist.backstoryInfo.title>Mincho baptist</Mincho_Infection_Colonist.backstoryInfo.title>
+  <Mincho_Infection_Colonist.backstoryInfo.titleShort>baptist</Mincho_Infection_Colonist.backstoryInfo.titleShort>
+  <Mincho_Infection_Colonist.backstoryInfo.description>{PAWN_nameDef} was a colonist in the colony. However, {PAWN_nameDef} was "selected" by the Minchowitch and had the opportunity to ascend to the Mincho. \n\nOf course, may not have reflected {PAWN_nameDef}'s intention, but she's already become the Mincho, and she's no longer mind about it.</Mincho_Infection_Colonist.backstoryInfo.description>
+  <Mincho_Infection_Prisoner.backstoryInfo.title>Mincho unwanted salvation</Mincho_Infection_Prisoner.backstoryInfo.title>
+  <Mincho_Infection_Prisoner.backstoryInfo.titleShort>salvationed prisoner</Mincho_Infection_Prisoner.backstoryInfo.titleShort>
+  <Mincho_Infection_Prisoner.backstoryInfo.description>{PAWN_nameDef} was a prisoner in a colony. [Pawn_pronoun] was unfit to be the master of the Minchoes, so instead of killing, the Minchowitch showed mercy and turned {PAWN_nameDef} into the Mincho so that she could later find another master.</Mincho_Infection_Prisoner.backstoryInfo.description>
+  <Mincho_Infection_NPC.backstoryInfo.title>Mincho forced mercy</Mincho_Infection_NPC.backstoryInfo.title>
+  <Mincho_Infection_NPC.backstoryInfo.titleShort>mercied</Mincho_Infection_NPC.backstoryInfo.titleShort>
+  <Mincho_Infection_NPC.backstoryInfo.description>A colonist of another colony who was lucky to have a chance to visit your colony and become the Mincho. However, perhaps embarrassed by the her sudden change, she tries to get away from here quickly.</Mincho_Infection_NPC.backstoryInfo.description>
+  <Mincho_Infection_Pirate.backstoryInfo.title>Mincho liberated soul</Mincho_Infection_Pirate.backstoryInfo.title>
+  <Mincho_Infection_Pirate.backstoryInfo.titleShort>liberated</Mincho_Infection_Pirate.backstoryInfo.titleShort>
+  <Mincho_Infection_Pirate.backstoryInfo.description>{PAWN_nameDef} was a member of a hostile force in your colony. The Minchowitch turned [Pawn_pronoun] into Mincho to protect the things she loves and to free {PAWN_nameDef} from the evilness that comes from human nature. Of course, even if {PAWN_nameDef} doesn't want liberation, it doesn't matter.</Mincho_Infection_Pirate.backstoryInfo.description>
+  <Mincho_Infection_Wildman.backstoryInfo.title>Mincho wanderer's end</Mincho_Infection_Wildman.backstoryInfo.title>
+  <Mincho_Infection_Wildman.backstoryInfo.titleShort>wanderer</Mincho_Infection_Wildman.backstoryInfo.titleShort>
+  <Mincho_Infection_Wildman.backstoryInfo.description>There is no group to guarantee human rights for those who return to nature and refuse to live as part of society. And {PAWN_nameDef} was become the Mincho by the Minchowitch. However, there is no one to be angry at [Pawn_pronoun]'s unilateral mutated.</Mincho_Infection_Wildman.backstoryInfo.description>
+  <Mincho_Infection_Animal_Colony.backstoryInfo.title>Mincho another form of companion</Mincho_Infection_Animal_Colony.backstoryInfo.title>
+  <Mincho_Infection_Animal_Colony.backstoryInfo.titleShort>companion</Mincho_Infection_Animal_Colony.backstoryInfo.titleShort>
+  <Mincho_Infection_Animal_Colony.backstoryInfo.description>Even animals that do not pass the Harkness test due to lack of intelligence should be given a chance. The Minchowitch showed mercy so that even an animal could serve its master in another way. However, more research will be needed on whether Minchoes are intelligent at the human level.</Mincho_Infection_Animal_Colony.backstoryInfo.description>
+  <Mincho_Infection_Animal_Wild.backstoryInfo.title>Mincho subject</Mincho_Infection_Animal_Wild.backstoryInfo.title>
+  <Mincho_Infection_Animal_Wild.backstoryInfo.titleShort>subject</Mincho_Infection_Animal_Wild.backstoryInfo.titleShort>
+  <Mincho_Infection_Animal_Wild.backstoryInfo.description>It takes a lot of experimentation to turn a creature into a completely different species. And this experiment was successful!</Mincho_Infection_Animal_Wild.backstoryInfo.description>
+  <Mincho_Infection_Animal_Pirate.backstoryInfo.title>Mincho reborned</Mincho_Infection_Animal_Pirate.backstoryInfo.title>
+  <Mincho_Infection_Animal_Pirate.backstoryInfo.titleShort>reborned</Mincho_Infection_Animal_Pirate.backstoryInfo.titleShort>
+  <Mincho_Infection_Animal_Pirate.backstoryInfo.description>Minchowitch is so merciful that she never kill animals even if they try to hurt her loved ones. Not only that, it also gives chance for future inclusion in colony.</Mincho_Infection_Animal_Pirate.backstoryInfo.description>
+  <Mincho_Infection_Animal_NPC.backstoryInfo.title>Mincho caravan's little friend</Mincho_Infection_Animal_NPC.backstoryInfo.title>
+  <Mincho_Infection_Animal_NPC.backstoryInfo.titleShort>lttle one</Mincho_Infection_Animal_NPC.backstoryInfo.titleShort>
+  <Mincho_Infection_Animal_NPC.backstoryInfo.description>Those animals that had just mutated into Mincho and were not subject to the master's control are going home according to their homing instinct. Well, unfortunately, the things she originally had changed and were completely absorbed into her body.</Mincho_Infection_Animal_NPC.backstoryInfo.description>
+  <Mincho_Infection_Undefined.backstoryInfo.title>Mincho variant</Mincho_Infection_Undefined.backstoryInfo.title>
+  <Mincho_Infection_Undefined.backstoryInfo.titleShort>variant</Mincho_Infection_Undefined.backstoryInfo.titleShort>
+  <Mincho_Infection_Undefined.backstoryInfo.description>{PAWN_nameDef} was get chance to be the Mincho!</Mincho_Infection_Undefined.backstoryInfo.description>
+  <MinchoWitch_BackstoryChild.backstoryInfo.title>Empire subject</MinchoWitch_BackstoryChild.backstoryInfo.title>
+  <MinchoWitch_BackstoryChild.backstoryInfo.titleShort>subject</MinchoWitch_BackstoryChild.backstoryInfo.titleShort>
+  <MinchoWitch_BackstoryChild.backstoryInfo.description>{PAWN_nameDef} was enslaved to the Empire and tested to handle the Mincho. But the experiment failed, and {PAWN_nameDef} escaped.</MinchoWitch_BackstoryChild.backstoryInfo.description>
+  <MinchoWitch_BackstoryAdult.backstoryInfo.title>Mincho worshipper witch</MinchoWitch_BackstoryAdult.backstoryInfo.title>
+  <MinchoWitch_BackstoryAdult.backstoryInfo.titleShort>minchowitch</MinchoWitch_BackstoryAdult.backstoryInfo.titleShort>
+  <MinchoWitch_BackstoryAdult.backstoryInfo.description>{PAWN_nameDef} has been worshipping Minchoes as her master, even after she escaped from the  Institute of psychic. She is using her psychic to transform every human, human-type creature in the world into the Mincho.</MinchoWitch_BackstoryAdult.backstoryInfo.description>
+</LanguageData>

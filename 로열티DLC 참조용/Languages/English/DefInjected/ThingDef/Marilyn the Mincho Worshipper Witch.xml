@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MinchoWitch_Cure_Serum.label>cure mincho infection mech serum</MinchoWitch_Cure_Serum.label>
+  <MinchoWitch_Cure_Serum.description>A serum that is injected with specially-adjusted mutated mechanites that binds to the mutated mechanites in the body and ejects it out of the body. Deformation of the body caused by the infection cannot be cured.</MinchoWitch_Cure_Serum.description>
+  <MinchoWitch_Cure_Serum.comps.0.useLabel>Use cure mincho infection mech serum</MinchoWitch_Cure_Serum.comps.0.useLabel>
+  <MinchoWitch_Potion.label>minchowitch's potion</MinchoWitch_Potion.label>
+  <MinchoWitch_Potion.description>It's a sweet potion made by a minchowitch. It's so sweet that teeth are rotting, and so fresh that head is frozen. Mechanites, which used to make up the body of mincho, is added to the potion. While these mechanites continue to give the consumer a strong sense of pleasure during the delivery of the potion, they slowly decompose their bodies and turn them into "Mincho" if they stop taking them for a long time. Minchowitch and mincho is immune to this "Infection."\n\nThose who wanted a greater sense of pleasure than the usual drugs were addicted to this and ended up becoming mincho. But this is what the minchowitch wanted.</MinchoWitch_Potion.description>
+  <MinchoWitch_Potion.ingestible.ingestCommandString>Inject {0}</MinchoWitch_Potion.ingestible.ingestCommandString>
+  <MinchoWitch_Potion.ingestible.ingestReportString>Injecting {0}.</MinchoWitch_Potion.ingestible.ingestReportString>
+  <MinchoWitch_Hat.label>minchowitch's hat</MinchoWitch_Hat.label>
+  <MinchoWitch_Hat.description>It is a hat worn by the minchowitch. A young mincho lives on top of it. Originally, it was to protect immature mincho, and even though mincho has grown up to a certain extent, young mincho was already satisfied with top of minchowitch's hats, so mincho never thought of coming down.\n\nOn the other hand, this young mincho lives on top of a hat, and instead of lowering the over-sensitive psychic sensitivity of the minchowitch, it physically cools the head to quickly dissipate neural heat.</MinchoWitch_Hat.description>
+  <MinchoWitch_Lingerie.label>minchowitch lingerie</MinchoWitch_Lingerie.label>
+  <MinchoWitch_Lingerie.description>This is a lingerie worn by the minchowitch. The upper lingerie is boldly open, so doubt whether it acts as an lingerie. The bottom is a pair of tights and stockings that are all part of the garter belt. Minchowitch doesn't wear any other clothes inside her coat except for this one. All the people who pointed out this became her servants.</MinchoWitch_Lingerie.description>
+  <MinchoWitch_Robe.label>minchowitch robe</MinchoWitch_Robe.label>
+  <MinchoWitch_Robe.description>This is a robe worn by the minchowitch. The front part is open, so it's very efficient to cool down the neural heat after using psycast.</MinchoWitch_Robe.description>
+  <MinchoFalloutBeacon.label>minchofallout beacon</MinchoFalloutBeacon.label>
+  <MinchoFalloutBeacon.description>This is a special psychic beacon that triggers a ""Mincho fallout"" at the target. Mincho fallout is a phenomenon in which mutated mechanites are sprinkled from the sky, and when exposed to this Mincho fallout even little, a Mincho infection occurs and eventually becomes a Mincho.\n\nMincho fallout was one of the most important elements of the ""Marilyn Plan"" along with the Marilyn herself. It was to cause a Mincho fallout at the base of the forces that were hostile to the empire, and let Marilyn take control of these Minchos and use them as soldiers.\n\nMarilyn herself didn't know about the satellite's control, but it was in her hand.</MinchoFalloutBeacon.description>
+  <MinchoWitch_MinchoGolem.label>minchogolem</MinchoWitch_MinchoGolem.label>
+  <MinchoWitch_MinchoGolem.description>A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak.</MinchoWitch_MinchoGolem.description>
+  <MinchoWitch_MinchoGolem.tools.0.label>left fist</MinchoWitch_MinchoGolem.tools.0.label>
+  <MinchoWitch_MinchoGolem.tools.1.label>right fist</MinchoWitch_MinchoGolem.tools.1.label>
+  <MinchoWitch_MinchoGolem.tools.2.label>head</MinchoWitch_MinchoGolem.tools.2.label>
+</LanguageData>

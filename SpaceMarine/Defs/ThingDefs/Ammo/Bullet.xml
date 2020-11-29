@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- =============== Bullets ================== -->
+  
+	<!-- ================ overcharge rifle =============== -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>OverchargeRifle_Bullet</defName>
+		<label>Overcharge rifle bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+			<speed>100</speed>
+			<stoppingPower>0.5</stoppingPower>
+			<armorPenetrationBase>0.35</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+	
+	<!-- ================ Charge luger =============== -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>C_luger_Bullet</defName>
+		<label>charge luger bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>16</damageAmountBase>
+			<speed>70</speed>
+			<stoppingPower>0.5</stoppingPower>
+			<armorPenetrationBase>0.2</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+	
+	<!-- ================ overcharge smg =============== -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>ChargeSMG_Bullet</defName>
+		<label>Charge smg bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>6</damageAmountBase>
+			<speed>100</speed>
+			<stoppingPower>0.5</stoppingPower>
+			<armorPenetrationBase>0.18</armorPenetrationBase>
+		</projectile>
+	</ThingDef>
+	
+	
+	<!-- ================ charge shotgun =============== -->
+	
+	<ThingDef ParentName="BaseBullet">
+    <defName>Bullet_ChargeShotgun</defName>
+    <label>Charge shotgun blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>3</damageAmountBase>
+      <stoppingPower>4</stoppingPower>
+      <armorPenetrationBase>0.2</armorPenetrationBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+  
+  	<!-- ================ pulse charge =============== -->
+	
+	<ThingDef ParentName="BaseBullet">
+    <defName>Bullet_pulsecharge</defName>
+    <label>charge catapult shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/ChargeLanceShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+	  <drawSize>1.5</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>110</speed>
+    </projectile>
+  </ThingDef>
+  
+    	<!-- ================ charge bullet =============== -->
+	
+	<ThingDef ParentName="BaseBullet">
+    <defName>Bullet_charge</defName>
+    <label>charge shot</label>
+    <graphicData>
+      <texPath>Things/Projectile/ChargeLanceShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>TransparentPostLight</shaderType>
+	  <drawSize>1.5</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <stoppingPower>4</stoppingPower>
+      <speed>200</speed>
+    </projectile>
+  </ThingDef>
+  
+  <!-- ================ smoke lunch =============== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Smoke</defName>
+    <label>smoke launcher shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <color>(140,135,156)</color>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <damageDef>Smoke</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>1</explosionRadius>
+      <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <arcHeightFactor>0.2</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+    </projectile>
+  </ThingDef>
+  
+
+  
+</Defs>

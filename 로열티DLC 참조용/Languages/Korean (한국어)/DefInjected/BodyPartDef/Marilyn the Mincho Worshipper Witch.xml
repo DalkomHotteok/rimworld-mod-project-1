@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- head -->
+  <MinchoGolem_Head.label>머리</MinchoGolem_Head.label>
+  <!-- minchogolem core -->
+  <MinchoGolem_Core.label>민초골렘 코어</MinchoGolem_Core.label>
+  <!-- torso -->
+  <MinchoGolem_Torso.label>몸통</MinchoGolem_Torso.label>
+  <!-- shoulder -->
+  <MinchoGolem_Shoulder.label>어깨</MinchoGolem_Shoulder.label>
+  <!-- arm -->
+  <MinchoGolem_Arm.label>팔</MinchoGolem_Arm.label>
+  <!-- hand -->
+  <MinchoGolem_Hand.label>손</MinchoGolem_Hand.label>
+  <!-- waist -->
+  <MinchoGolem_Waist.label>허리</MinchoGolem_Waist.label>
+  <!-- leg -->
+  <MinchoGolem_Leg.label>다리</MinchoGolem_Leg.label>
+  <!-- foot -->
+  <MinchoGolem_Foot.label>발</MinchoGolem_Foot.label>
+</LanguageData>

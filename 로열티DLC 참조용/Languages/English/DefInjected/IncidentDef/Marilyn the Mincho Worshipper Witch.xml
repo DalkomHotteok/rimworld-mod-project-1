@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WandererJoin_MinchoWitch.label>wanderer minchowitch</WandererJoin_MinchoWitch.label>
+  <WandererJoin_MinchoWitch.letterLabel>Wanderer minchowitch joins: {PAWN_nameDef}</WandererJoin_MinchoWitch.letterLabel>
+  <WandererJoin_MinchoWitch.letterText>The Minchowitch came to this colony with an ominous chill. She's probably came here because of something related Mincho, but no one knows exactly what she's trying to do...</WandererJoin_MinchoWitch.letterText>
+  <WandererJoin_MinchoWitch_Scenario.label>wanderer minchowitch</WandererJoin_MinchoWitch_Scenario.label>
+  <WandererJoin_MinchoWitch_Scenario.letterLabel>Wanderer minchowitch joins: {PAWN_nameDef}</WandererJoin_MinchoWitch_Scenario.letterLabel>
+  <WandererJoin_MinchoWitch_Scenario.letterText>The Minchowitch came to this colony with an ominous chill. She's probably came here because of something related Mincho, but no one knows exactly what she's trying to do...</WandererJoin_MinchoWitch_Scenario.letterText>
+</LanguageData>

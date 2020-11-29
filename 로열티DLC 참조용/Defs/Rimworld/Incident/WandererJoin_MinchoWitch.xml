@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <IncidentDef>
+    <defName>WandererJoin_MinchoWitch</defName>
+    <label>wanderer minchowitch</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_WandererJoin</workerClass>
+    <letterLabel>Wanderer minchowitch joins: {PAWN_nameDef}</letterLabel>
+    <letterText>The Minchowitch came to this colony with an ominous chill. She's probably came here because of something related Mincho, but no one knows exactly what she's trying to do...</letterText>
+    <letterDef>PositiveEvent</letterDef>
+	<baseChance>1.5</baseChance>
+    <pawnKind>MinchoWitch_Colonist</pawnKind>
+    <populationEffect>IncreaseEasy</populationEffect>
+	<earliestDay>15</earliestDay>
+    <minRefireDays>9999</minRefireDays>
+  </IncidentDef>
+  
+   <IncidentDef>
+    <defName>WandererJoin_MinchoWitch_Scenario</defName>
+    <label>wanderer minchowitch</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_WandererJoin</workerClass>
+    <letterLabel>Wanderer minchowitch joins: {PAWN_nameDef}</letterLabel>
+    <letterText>The Minchowitch came to this colony with an ominous chill. She's probably came here because of something related Mincho, but no one knows exactly what she's trying to do...</letterText>
+    <letterDef>PositiveEvent</letterDef>
+	<baseChance>0.00000001</baseChance>
+    <pawnKind>MinchoWitch_Colonist</pawnKind>
+    <populationEffect>IncreaseEasy</populationEffect>
+	<earliestDay>9999999</earliestDay>
+    <minRefireDays>9999</minRefireDays>
+  </IncidentDef>
+  
+  </Defs>

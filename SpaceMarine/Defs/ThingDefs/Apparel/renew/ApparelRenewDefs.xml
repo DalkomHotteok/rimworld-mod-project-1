@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- ReconAssaultPrestige -->
+  <thingDef ParentName="ApparelArmorPowerBase">
+    <defName>DH_ReconAssaultPrestige</defName>
+    <label>Prestige recon assault armor</label>
+    <techLevel>Spacer</techLevel>
+    <description>A Suit of powered armor. But it's based on a modified blueprint. Ensure protection to low-caliber bullet. Neuro-memetic assistors allow a human to wear the armor and still move easily. \n\nType GyeolSa is White Guradian reconnaissance trooper`s standard outfit.</description>
+    <graphicData> <texPath>Things/Apparel/PowerArmor/ReconAssault/ReconAssault</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <recipeMaker>
+	  <recipeUsers>
+                <li>FabricationBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>90</Plasteel>
+	  <Uranium>15</Uranium>
+	  <Gold>8</Gold>
+    </costList>
+    <statBases>
+      <Mass>11</Mass>
+			<WorkToMake>62000</WorkToMake>
+			<MaxHitPoints>360</MaxHitPoints>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.46</ArmorRating_Heat>
+			<Insulation_Cold>33</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>	
+			<EquipDelay>9</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>+0.1</MoveSpeed>
+    </equippedStatOffsets>
+      <generateCommonality>1</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+		<li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PowerArmor/ReconAssault/ReconAssault</wornGraphicPath>
+	  <tags>
+        <li>HiTechArmor</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </thingDef>
+  
+  
+  </Defs>

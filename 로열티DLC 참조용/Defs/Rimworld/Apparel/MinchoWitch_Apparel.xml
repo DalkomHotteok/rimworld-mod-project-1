@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>MinchoWitch_Apparel</defName>
+		<label>minchowitch apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingDef Name="MinchoWitch_ApparelBase" ParentName="ApparelMakeableBase" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>MinchoWitch_Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2700</WorkToMake>
+			<Mass>0.25</Mass>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>MinchoWitch</li>
+				<li>RoyalTier2</li>
+			</tags>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="MinchoWitch_ApparelBase">
+		<defName>MinchoWitch_Hat</defName>
+		<label>minchowitch's hat</label>
+		<description>It is a hat worn by the minchowitch. A young mincho lives on top of it. Originally, it was to protect immature mincho, and even though mincho has grown up to a certain extent, young mincho was already satisfied with top of minchowitch's hats, so mincho never thought of coming down.\n\nOn the other hand, this young mincho lives on top of a hat, and instead of lowering the over-sensitive psychic sensitivity of the minchowitch, it physically cools the head to quickly dissipate neural heat.</description>
+		<costList>
+			<Cloth>20</Cloth>
+			<Mincho_MintLeaves>50</Mincho_MintLeaves>
+			<Mincho_BlocksMintchoco>50</Mincho_BlocksMintchoco>
+		</costList>
+		<graphicData>
+			<texPath>MinchoWitch/Apparel/Headgear/Texture</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>0.8</Mass>
+			<ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PsychicSensitivity>-0.2</PsychicSensitivity>
+			<PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>MinchoWitch/Apparel/Headgear/Texture</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="MinchoWitch_ApparelBase">
+		<defName>MinchoWitch_Lingerie</defName>
+		<label>minchowitch lingerie</label>
+		<description>This is a lingerie worn by the minchowitch. The upper lingerie is boldly open, so doubt whether it acts as an lingerie. The bottom is a pair of tights and stockings that are all part of the garter belt. Minchowitch doesn't wear any other clothes inside her coat except for this one. All the people who pointed out this became her servants.</description>
+		<graphicData>
+			<texPath>MinchoWitch/Apparel/Lingerie/Texture</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Cloth>40</Cloth>
+			<Mincho_MintLeaves>50</Mincho_MintLeaves>
+			<Mincho_BlocksMintchoco>50</Mincho_BlocksMintchoco>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.25</Mass>
+			<ArmorRating_Sharp>0.07</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.04</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PsychicEntropyRecoveryRate>0.03</PsychicEntropyRecoveryRate>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>MinchoWitch/Apparel/Lingerie/Texture</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="MinchoWitch_ApparelBase">
+		<defName>MinchoWitch_Robe</defName>
+		<label>minchowitch robe</label>
+		<description>This is a robe worn by the minchowitch. The front part is open, so it's very efficient to cool down the neural heat after using psycast.</description>
+		<graphicData>
+			<texPath>MinchoWitch/Apparel/Robe/Texture</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Cloth>40</Cloth>
+			<Mincho_MintLeaves>50</Mincho_MintLeaves>
+			<Mincho_BlocksMintchoco>50</Mincho_BlocksMintchoco>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.5</Mass>
+			<ArmorRating_Sharp>0.07</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.04</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PsychicEntropyRecoveryRate>0.08</PsychicEntropyRecoveryRate>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>MinchoWitch/Apparel/Robe/Texture</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+
+</Defs>

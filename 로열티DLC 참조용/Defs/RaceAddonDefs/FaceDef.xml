@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<Garam_RaceAddon.FaceDef>
+	<defName>MinchoWitch_Face_Upper_A</defName>
+	<shaderType>Transparent</shaderType>
+<!--Normally Path By Mood-->
+	<mentalBreakPath>MinchoWitch/Face/Upper_Public/MentalBreak/Texture</mentalBreakPath>
+	<aboutToBreakPath>MinchoWitch/Face/Upper_Public/AboutToBreak/Texture</aboutToBreakPath>
+	<onEdgePath>MinchoWitch/Face/Upper_Public/OnEdge/Texture</onEdgePath>
+	<stressedPath>MinchoWitch/Face/Upper_Public/Neutral/Texture</stressedPath>
+	<neutralPath>MinchoWitch/Face/Upper_Public/Neutral/Texture</neutralPath>
+	<contentPath>MinchoWitch/Face/Upper_Public/Neutral/Texture</contentPath>
+	<happyPath>MinchoWitch/Face/Upper_Public/Happy/Texture</happyPath>
+<!--Special Path-->
+	<sleepingPath>MinchoWitch/Face/Upper_Public/Sleeping/Texture</sleepingPath>
+	<painShockPath>MinchoWitch/Face/Upper_Public/PainShock/Texture</painShockPath>
+	<deadPath>MinchoWitch/Face/Upper_Public/Dead/Texture</deadPath>
+	<blinkPath>MinchoWitch/Face/Upper_Public/Blink/Texture</blinkPath>
+	<winkPath>MinchoWitch/Face/Upper_Public/Wink/Texture</winkPath>
+</Garam_RaceAddon.FaceDef>
+
+<Garam_RaceAddon.FaceDef>
+	<defName>MinchoWitch_Face_Lower_A</defName>
+	<shaderType>Transparent</shaderType>
+<!--Normally Path By Mood-->
+	<mentalBreakPath>MinchoWitch/Face/Lower_Public/MentalBreak/Texture</mentalBreakPath>
+	<aboutToBreakPath>MinchoWitch/Face/Lower_Public/AboutToBreak/Texture</aboutToBreakPath>
+	<onEdgePath>MinchoWitch/Face/Lower_Public/OnEdge/Texture</onEdgePath>
+	<stressedPath>MinchoWitch/Face/Lower_Public/Neutral/Texture</stressedPath>
+	<neutralPath>MinchoWitch/Face/Lower_Public/Neutral/Texture</neutralPath>
+	<contentPath>MinchoWitch/Face/Lower_Public/Neutral/Texture</contentPath>
+	<happyPath>MinchoWitch/Face/Lower_Public/Happy/Texture</happyPath>
+<!--Special Path-->
+	<sleepingPath>MinchoWitch/Face/Lower_Public/Sleeping/Texture</sleepingPath>
+	<painShockPath>MinchoWitch/Face/Lower_Public/PainShock/Texture</painShockPath>
+	<deadPath>MinchoWitch/Face/Lower_Public/Dead/Texture</deadPath>
+	<blinkPath>MinchoWitch/Face/Lower_Public/Blink/Texture</blinkPath>
+	<winkPath>MinchoWitch/Face/Lower_Public/Wink/Texture</winkPath>
+</Garam_RaceAddon.FaceDef>
+
+</Defs>

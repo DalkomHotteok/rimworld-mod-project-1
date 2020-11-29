@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AbilityDef Name="MinchoWitchPsycast" Abstract="True">
+		<abilityClass>Psycast</abilityClass>
+		<statBases>
+			<Ability_Duration>0</Ability_Duration>
+		</statBases>
+		<verbProperties>
+			<verbClass>Verb_CastPsycast</verbClass>
+			<range>24.9</range>
+			<requireLineOfSight>True</requireLineOfSight>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetBuildings>False</canTargetBuildings>
+				<canTargetSelf>False</canTargetSelf>
+				<canTargetAnimals>False</canTargetAnimals>
+				<canTargetLocations>False</canTargetLocations>
+				<thingCategory>Item</thingCategory>
+				<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+			</targetParams>
+		</verbProperties>
+	</AbilityDef>
+
+	<AbilityDef ParentName="PsycastBase">
+		<defName>MinchoWitchChill</defName>
+		<label>chill</label>
+		<description>Causes hallucinations that make everyone near the target point feel as if they are in an extremely cold place. This hallucination occurs regardless of the target's Insulation - Cold, and it is actually succumbed to frostbite when used multiple times on the same target.</description>
+		<level>1</level>
+		<iconPath>MinchoWitch/UI/Abilities/MinchoWitchChill</iconPath>
+		<hotKey>Misc1</hotKey>
+		<statBases>
+			<Ability_EntropyGain>8</Ability_EntropyGain>
+			<Ability_PsyfocusCost>0.1</Ability_PsyfocusCost>
+			<Ability_Duration>120</Ability_Duration>
+			<Ability_EffectRadius>1.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+			<warmupTime>0.25</warmupTime>
+			<range>24.9</range>
+			<targetParams>
+				<canTargetBuildings>True</canTargetBuildings>
+				<canTargetSelf>False</canTargetSelf>
+				<canTargetAnimals>True</canTargetAnimals>
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>Hypothermia</hediffDef>
+				<durationMultiplier>PsychicSensitivity</durationMultiplier>
+				<psychic>True</psychic>
+				<applicableToMechs>False</applicableToMechs>
+				<goodwillImpact>-20</goodwillImpact>
+			</li>
+		</comps>
+	</AbilityDef>
+
+	<AbilityDef ParentName="PsycastBase">
+		<defName>MinchoWitchMintchocoBiofilm</defName>
+		<label>mintchoco biofilm</label>
+		<description>Wrapping the target's body in mintchoco slime to protect the target from external shocks. It's fairly heavy, which makes target slower, but doesn't interfere with the swinging the weapon. Although it doesn't have intelligence... It's been a bit of a whatchamacallit because slime is "wriggles".</description>
+		<level>2</level>
+		<iconPath>MinchoWitch/UI/Abilities/MinchoWitchMintchocoBiofilm</iconPath>
+		<hotKey>Misc2</hotKey>
+		<statBases>
+			<Ability_EntropyGain>8</Ability_EntropyGain>
+			<Ability_PsyfocusCost>0.02</Ability_PsyfocusCost>
+			<Ability_Duration>120</Ability_Duration>
+			<Ability_EffectRadius>1.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+			<warmupTime>0.25</warmupTime>
+			<range>24.9</range>
+			<targetParams>
+				<canTargetBuildings>True</canTargetBuildings>
+				<canTargetSelf>True</canTargetSelf>
+				<canTargetAnimals>True</canTargetAnimals>
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>MinchoWitch_MintchocoBiofilm</hediffDef>
+				<psychic>True</psychic>
+				<applicableToMechs>False</applicableToMechs>
+				<goodwillImpact>0</goodwillImpact>
+			</li>
+		</comps>
+	</AbilityDef>
+
+	<AbilityDef ParentName="PsycastBase">
+		<defName>MinchoWitchMinchoBeam</defName>
+		<label>minchobeam</label>
+		<description>Using the psychic instantly injects a large amount of mutated mechanites into the target's body and transform the target into a Mincho.\n\nThe Minchowitch calls it "Make the Master's Friend", "Ascension", etc. However, the Mincho does not actively welcome to make another race into their own kind.</description>
+		<level>3</level>
+		<iconPath>MinchoWitch/UI/Abilities/MinchoWitchMinchoBeam</iconPath>
+		<hotKey>Misc3</hotKey>
+		<statBases>
+			<Ability_EntropyGain>20</Ability_EntropyGain>
+			<Ability_PsyfocusCost>0.10</Ability_PsyfocusCost>
+			<Ability_Duration>120</Ability_Duration>
+		</statBases>
+		<verbProperties>
+			<warmupTime>0.25</warmupTime>
+			<range>24.9</range>
+			<targetParams>
+				<canTargetAnimals>True</canTargetAnimals>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>Mincho_Infection_Instant</hediffDef>
+				<durationMultiplier>PsychicSensitivity</durationMultiplier>
+				<psychic>True</psychic>
+				<applicableToMechs>False</applicableToMechs>
+				<goodwillImpact>-10</goodwillImpact>
+			</li>
+		</comps>
+	</AbilityDef>
+
+	<AbilityDef ParentName="PsycastBase">
+		<defName>MinchoWitchMassMinchoBeam</defName>
+		<label>mass minchobeam</label>
+		<description>"Using the psychic instantly injects a large amount of mutated mechanites into everyone's body near the target.\n\nSince the mutated mechanites are dispersed, the target cannot be transformed immediately, but if used multiple times on the same target, it immediately transforms into Mincho."</description>
+		<level>4</level>
+		<iconPath>MinchoWitch/UI/Abilities/MinchoWitchMassMinchoBeam</iconPath>
+		<hotKey>Misc4</hotKey>
+		<statBases>
+			<Ability_EntropyGain>30</Ability_EntropyGain>
+			<Ability_PsyfocusCost>0.2</Ability_PsyfocusCost>
+			<Ability_Duration>120</Ability_Duration>
+			<Ability_EffectRadius>2.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+			<warmupTime>0.25</warmupTime>
+			<range>24.9</range>
+			<targetParams>
+				<canTargetBuildings>True</canTargetBuildings>
+				<canTargetSelf>False</canTargetSelf>
+				<canTargetAnimals>True</canTargetAnimals>
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "CompProperties_AbilityGiveHediff">
+				<compClass>CompAbilityEffect_GiveHediff</compClass>
+				<hediffDef>Mincho_Infection</hediffDef>
+				<psychic>True</psychic>
+				<applicableToMechs>False</applicableToMechs>
+				<goodwillImpact>-15</goodwillImpact>
+			</li>
+		</comps>
+	</AbilityDef>
+
+	<!--<AbilityDef ParentName="MinchoWitchPsycast">
+		<defName>MinchoWitchSummonMinchoGolemManhunterPermanent</defName>
+		<label>인간사냥의 민초골렘 소환</label>
+		<description>민초골렘을 소환합니다. 민초골렘은 매우 불안정한 생물이기에 소환과 동시에 아군 적군 가리지 않고 난동을 부립니다. 인간을 찾아서 없애려 들기에, 인간의 습격을 막는데 효과적입니다.</description>
+		<level>5</level>
+		<iconPath>MinchoWitch/UI/Abilities/SkipChaosMass</iconPath>
+		<hotKey>Misc12</hotKey>
+		<statBases>
+			<Ability_EntropyGain>50</Ability_EntropyGain>
+			<Ability_PsyfocusCost>0.3</Ability_PsyfocusCost>
+		</statBases>
+		<verbProperties>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetSelf>False</canTargetSelf>
+				<canTargetAnimals>True</canTargetAnimals>
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "CompProperties_AbilitySpawn">
+				<compClass>MinchoWitch.CompAbilityEffect_Spawn_ManhunterPermanent</compClass>
+			</li>
+		</comps>
+	</AbilityDef>-->
+
+	<AbilityDef ParentName="MinchoWitchPsycast">
+		<defName>MinchoWitchSummonMinchoGolemBerserk</defName>
+		<label>Summon berserk minchogolem</label>
+		<description>Summons a golem with hard chocolate armors at the target point. It moves very dull, but it is very strong and sturdy. The minchogolem is a creature created from nothing and is very unstable. It's life is very short and out of control. The body collapses immediately upon death.</description>
+		<level>5</level>
+		<iconPath>MinchoWitch/UI/Abilities/MinchoWitchSummonMinchoGolemBerserk</iconPath>
+		<hotKey>Misc5</hotKey>
+		<statBases>
+			<Ability_EntropyGain>50</Ability_EntropyGain>
+			<Ability_PsyfocusCost>0.3</Ability_PsyfocusCost>
+		</statBases>
+		<verbProperties>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetSelf>False</canTargetSelf>
+				<canTargetAnimals>True</canTargetAnimals>
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class = "CompProperties_AbilitySpawn">
+				<compClass>MinchoWitch.CompAbilityEffect_Spawn_Berserk</compClass>
+			</li>
+		</comps>
+	</AbilityDef>
+
+	<AbilityDef ParentName="MinchoWitchPsycast">
+		<defName>MinchoWitchMinchoFallout</defName>
+		<label>mincho fallout</label>
+		<description>Summons a Mincho fallout beacon that triggers a "Mincho fallout" at the target. Mincho fallout is a phenomenon in which mutated mechanites are sprinkled from the sky, and when exposed to this Mincho fallout even little, a Mincho infection occurs and eventually becomes a Mincho.\n\nAlthough Mincho fallout has no effect on plants, it affects both humans and animals, that means the ecosystem in the area where Mincho fallout occurs will ruin. Before triggering a Mincho fallout, review whether colonists and animals have been evacuated, hunted as many wild animals as needed, and if you can smash the Mincho fallout beacon when needed.</description>
+		<level>6</level>
+		<iconPath>MinchoWitch/UI/Abilities/MinchoWitchMinchoFallout</iconPath>
+		<hotKey>Misc6</hotKey>
+		<statBases>
+			<Ability_EntropyGain>80</Ability_EntropyGain>
+			<Ability_PsyfocusCost>0.5</Ability_PsyfocusCost>
+		</statBases>
+		<verbProperties>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+				<canTargetSelf>False</canTargetSelf>
+				<canTargetAnimals>False</canTargetAnimals>
+				<canTargetLocations>True</canTargetLocations>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="CompProperties_AbilitySpawn">
+				<thingDef>MinchoFalloutBeacon</thingDef>
+			</li>
+		</comps>
+	</AbilityDef>
+</Defs>

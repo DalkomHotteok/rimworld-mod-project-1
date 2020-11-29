@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Special Marine -->
+  <thingDef ParentName="ApparelArmorPowerBase">
+    <defName>DH_ArmorSpecialMarine</defName>
+    <label>Specialist marine armor</label>
+    <techLevel>Spacer</techLevel>
+    <description>A Suit of powered armor. But it's based on a modified blueprint. Ensure protection to assault rifle bullet. Neuro-memetic assistors allow a human to wear the armor and still move easily. \n\nThis Armor is White Guardian`s standard outfit.</description>
+    <graphicData> <texPath>Things/Apparel/PowerArmor/ArmorSpecialMarine/ArmorSpecialMarine</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+	    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>3</maxCharges>
+        <ammoDef>Chemfuel</ammoDef>
+        <ammoCountToRefill>10</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>smokepop</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Smokepop</verbClass>
+        <label>pop smoke</label>
+        <violent>false</violent>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+      </li>
+    </verbs>
+    <recipeMaker>
+	  <recipeUsers>
+                <li>FabricationBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>110</Plasteel>
+	  <Uranium>25</Uranium>
+	  <Gold>80</Gold>
+    </costList>
+    <statBases>
+      <Mass>12</Mass>
+			<WorkToMake>62000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.09</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.54</ArmorRating_Heat>
+			<Insulation_Cold>35</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>	
+			<EquipDelay>11</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.32</MoveSpeed>
+    </equippedStatOffsets>
+      <generateCommonality>1</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PowerArmor/ArmorSpecialMarine/ArmorSpecialMarine</wornGraphicPath>
+	  <tags>
+        <li>HiTechArmor</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </thingDef>
+  
+      <!--SpecialMarine Helmet-->
+  
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>DH_ArmorHelmetSpecialMarine</defName>
+    <label>Specialist marine helmet</label>
+    <description>A High-tech armored helmet with a built-in status computer and cross-overlapping plasteel-weave plate. The ultra-small battle-purpose computer embedded in the cheek of the helmet assist the wearer in combat.
+\n\nThis Armor is White Guardian`s standard outfit. \n\nThis helmet is paired with JungMil power armor.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker> 
+	<recipeUsers>
+                <li>FabricationBench</li>
+    </recipeUsers>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Apparel/PowerArmor_Helmet/Helmet_SpecialMarine/Helmet_SpecialMarine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>165</MaxHitPoints>
+      <Mass>1.5</Mass>
+	  <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.09</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.54</ArmorRating_Heat>
+	  <Insulation_Cold>4</Insulation_Cold>
+	  <Insulation_Heat>2</Insulation_Heat>	
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+	<equippedStatOffsets>
+	  <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>45</Plasteel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PowerArmor_Helmet/Helmet_SpecialMarine/Helmet_SpecialMarine</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>HiTechArmor</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	      <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  
+    <!--Helmet Major Marine-->
+  
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>DH_ArmorHelmetMajorMarine</defName>
+    <label>Major marine helmet</label>
+    <description>A High-tech armored helmet with a built-in status computer and cross-overlapping plasteel-weave plate. The ultra-small battle-purpose computer embedded in the cheek of the helmet assist the wearer in combat.
+\n\nExpensive and beautiful, prestige armor like this is usually made for those of high status. This Armor is White Guardian Field Officer`s standard outfit. \n\nThis helmet is paired with JungMil power armor.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker> 
+	<recipeUsers>
+                <li>FabricationBench</li>
+    </recipeUsers>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Apparel/PowerArmor_Helmet/Helmet_MajorMarine/Helmet_MajorMarine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>165</MaxHitPoints>
+      <Mass>1.5</Mass>
+	  <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.09</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.47</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.54</ArmorRating_Heat>
+	  <Insulation_Cold>4</Insulation_Cold>
+	  <Insulation_Heat>2</Insulation_Heat>	
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+	<equippedStatOffsets>
+	  <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>45</Plasteel>
+	  <Gold>80</Gold>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PowerArmor_Helmet/Helmet_MajorMarine/Helmet_MajorMarine</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>HiTechArmor</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+      <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  
+ 
+    <!-- Gyeolsa -->
+  <thingDef ParentName="ApparelArmorPowerBase">
+    <defName>Apparel_ArmorGyeolsa</defName>
+    <label>GyeolSa power armor</label>
+    <techLevel>Spacer</techLevel>
+    <description>A Suit of powered armor. But it's based on a modified blueprint. Ensure protection to low-caliber bullet. Neuro-memetic assistors allow a human to wear the armor and still move easily. \n\nType GyeolSa is White Guradian reconnaissance trooper`s standard outfit.</description>
+    <graphicData> <texPath>Things/Apparel/PowerArmor/ArmorGyeolsa/ArmorGyeolsa</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <recipeMaker>
+	  <recipeUsers>
+                <li>FabricationBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>90</Plasteel>
+	  <Uranium>15</Uranium>
+	  <Gold>8</Gold>
+    </costList>
+    <statBases>
+      <Mass>11</Mass>
+			<WorkToMake>62000</WorkToMake>
+			<MaxHitPoints>360</MaxHitPoints>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.46</ArmorRating_Heat>
+			<Insulation_Cold>33</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>	
+			<EquipDelay>9</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>+0.3</MoveSpeed>
+    </equippedStatOffsets>
+      <generateCommonality>1</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+		<li>Neck</li>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PowerArmor/ArmorGyeolsa/ArmorGyeolsa</wornGraphicPath>
+	  <tags>
+        <li>HiTechArmor</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </thingDef>
+  
+<!--HelmetGyeolsa-->
+  
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_HelmetGyeolsa</defName>
+    <label>GyeolSa helmet</label>
+    <description>A High-tech armored helmet with a built-in status computer and cross-overlapping plasteel-weave plate. \n\nType GyeolSa is White Guradian reconnaissance trooper`s standard outfit. This helmet is paired with GyeolSa power armor.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker> 
+	<recipeUsers>
+                <li>FabricationBench</li>
+    </recipeUsers>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Apparel/PowerArmor_Helmet/Helmet_Gyeolsa/HelmetGyeolsa</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.30</ArmorRating_Heat>
+	  <Insulation_Heat>2</Insulation_Heat>
+	  <Insulation_Cold>4</Insulation_Cold>
+      <EquipDelay>1.4</EquipDelay>
+    </statBases>
+	<equippedStatOffsets>
+      <MoveSpeed>+0.3</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>40</Steel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/PowerArmor_Helmet/Helmet_Gyeolsa/HelmetGyeolsa</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>HiTechArmor</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+      <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <!-- sunshin grenadier
+  <ThingDef ParentName="ApparelArmorPowerBase">
+    <defName>Apparel_ArmorSunshinGrenadier</defName>
+    <label>grenadier armor</label>
+    <description>A variant of marine armor with an integrated frag launcher on the shoulder. The armor is slightly less protective than standard marine armor. The launcher can only hold a limited amount of ammo and must be reloaded after use.\n\nGrenadiers usually specialize in breaching buildings or internal ship bulkheads. While not effective at very long range, grenadiers can be surprisingly deadly in confined quarters.</description>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <ArmorRating_Sharp>1.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.49</ArmorRating_Heat>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Apparel/Sunshin/ArmorSunshin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <scoreOffset>4</scoreOffset>
+      <wornGraphicPath>Things/Apparel/Sunshin/ArmorSunshin</wornGraphicPath>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountPerCharge>25</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>grenade</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>launch frag grenade</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>True</onlyManualCast>
+        <range>12.9</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>1.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>ArmorSunshin_GrenadierGrenade</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseFragGrenadeProjectile">
+    <defName>ArmorSunshin_GrenadierGrenade</defName>
+    <label>frag grenade</label>
+    <projectile>
+      <speed>16</speed>
+    </projectile>
+  </ThingDef> -->
+
+
+</Defs>

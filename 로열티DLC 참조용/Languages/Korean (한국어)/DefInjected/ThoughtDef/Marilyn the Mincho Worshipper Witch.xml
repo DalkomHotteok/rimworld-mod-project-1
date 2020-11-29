@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- minchowitch's potion cool -->
+  <MinchoWitch_PotionHigh.stages.0.label>민초마녀의 묘약의 상쾌함</MinchoWitch_PotionHigh.stages.0.label>
+  <!-- I feel refreshed all over. -->
+  <MinchoWitch_PotionHigh.stages.0.description>온몸이 상쾌해.</MinchoWitch_PotionHigh.stages.0.description>
+  <!-- ignoring the Minchowitch's warning -->
+  <MinchoWitch_PotionHigh.stages.1.label>민초마녀의 경고를 무시함</MinchoWitch_PotionHigh.stages.1.label>
+  <!-- she told me to drink it once a day, but... What's the big deal? -->
+  <MinchoWitch_PotionHigh.stages.1.description>하루에 한번만 마시라 했는데... 뭐 별일이야 있겠어?</MinchoWitch_PotionHigh.stages.1.description>
+  <!-- minchowitch's potion cool -->
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.label>민초마녀의 묘약의 상쾌함</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.label>
+  <!-- That ambrosia makes me feel more relaxed, and gives me energy at the same time. -->
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.description>온몸이 상쾌해.</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.description>
+  <!-- drink potions as much as one likes -->
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.label>물약을 실컷 마심</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.label>
+  <!-- Poor people. It's a privilege of me and the Mincho to drink this potion as much as likes. -->
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.description>불쌍한 인간들 같으니라고... 이 물약을 마음껏 마시는건 나와 민초들의 특권이지.</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.description>
+  <!-- minchowitch's potion cool -->
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.0.label>민초마녀의 묘약의 상쾌함</MinchoWitch_PotionHigh_MinchoOnly.stages.0.label>
+  <!-- That ambrosia makes me feel more relaxed, and gives me energy at the same time. -->
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.0.description>온몸이 상쾌해.</MinchoWitch_PotionHigh_MinchoOnly.stages.0.description>
+  <!-- drink potions as much as one likes -->
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.1.label>물약을 실컷 마심</MinchoWitch_PotionHigh_MinchoOnly.stages.1.label>
+  <!-- I drank the potion that the witch made me several times, but I shouldn't give it to humans many times. Why? -->
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.1.description>마녀가 만들어준 물약을 여러번 마셨어, 근데 이거 인간들에게는 여러번 주면 안된데, 왜일까?</MinchoWitch_PotionHigh_MinchoOnly.stages.1.description>
+  <!-- My stomach is hurt -->
+  <Mincho_InfectionThought.stages.0.label>배가 아파</Mincho_InfectionThought.stages.0.label>
+  <!-- My stomach is a little cold. -->
+  <Mincho_InfectionThought.stages.0.description>배가 조금 차가워.</Mincho_InfectionThought.stages.0.description>
+  <!-- I've got a headache -->
+  <Mincho_InfectionThought.stages.1.label>머리가 아파</Mincho_InfectionThought.stages.1.label>
+  <!-- My head is cold and I'm about to break... -->
+  <Mincho_InfectionThought.stages.1.description>머리가 차가워 깨질 거 같아...</Mincho_InfectionThought.stages.1.description>
+  <!-- My body smells like mint -->
+  <Mincho_InfectionThought.stages.2.label>몸에서 민트향이 나</Mincho_InfectionThought.stages.2.label>
+  <!-- I smell something fresh in my body. This is not my smell... -->
+  <Mincho_InfectionThought.stages.2.description>몸에서 뭔가 상쾌한 향이 나... 이건 내 냄새가 아니아...</Mincho_InfectionThought.stages.2.description>
+  <!-- No no no no -->
+  <Mincho_InfectionThought.stages.3.label>싫어 싫어 싫어</Mincho_InfectionThought.stages.3.label>
+  <!-- It'slikeI'mnotmyselfheadhurtsstomachhurtsnonononoIwanttoeatmintchoco -->
+  <Mincho_InfectionThought.stages.3.description>내가내가아닌거같아머리가아파배가아파싫어싫어싫어민트초코먹고싶어</Mincho_InfectionThought.stages.3.description>
+  <!-- no Mincho -->
+  <MinchoWitch_RaceRatio.stages.0.label>민초가 없음</MinchoWitch_RaceRatio.stages.0.label>
+  <!-- There's no Mincho in here. But it's not problem, if it's not there, I just make it. -->
+  <MinchoWitch_RaceRatio.stages.0.description>여기엔 민초들이 없어.. 하지만 문제없지, 없으면 만들면 될 뿐이니깐...</MinchoWitch_RaceRatio.stages.0.description>
+  <!-- serve to Mincho -->
+  <MinchoWitch_RaceRatio.stages.1.label>민초에게 봉사하다</MinchoWitch_RaceRatio.stages.1.label>
+  <!-- Your Freshness, I swear to rule you as a master and serve you as a servant at the same time. -->
+  <MinchoWitch_RaceRatio.stages.1.description>상쾌하신 민초시여, 저는 주인으로서 당신을 다스리고, 동시에 하인으로서 당신에게 봉사할 것을 맹세합니다.</MinchoWitch_RaceRatio.stages.1.description>
+  <!-- supreme happiness -->
+  <MinchoWitch_RaceRatio.stages.2.label>지고의 행복</MinchoWitch_RaceRatio.stages.2.label>
+  <!-- I'm so happy that there are so many Mincho. -->
+  <MinchoWitch_RaceRatio.stages.2.description>이렇게나 민초가 많다니, 정말로 행복해.</MinchoWitch_RaceRatio.stages.2.description>
+  <!-- rule and serve -->
+  <MinchoWitch_RaceRatio.stages.3.label>지배와 봉사</MinchoWitch_RaceRatio.stages.3.label>
+  <!-- It's good to rule the Minchos, but it's also very happy to be ruled by them. -->
+  <MinchoWitch_RaceRatio.stages.3.description>민초들을 다스리는 것도 좋지만, 그녀들의 지배를 받는 것도 매우 행복한 일이야.</MinchoWitch_RaceRatio.stages.3.description>
+  <!-- oblivion of hatred -->
+  <MinchoWitch_RaceRatio.stages.4.label>증오의 망각</MinchoWitch_RaceRatio.stages.4.label>
+  <!-- I don't care the days when I was experimented by the Empire any more. I just want to live here with the Minchos forever. -->
+  <MinchoWitch_RaceRatio.stages.4.description>제국에게 실험당했던 시절 따윈 더는 아무래도 좋아, 여기서 그냥 민초들과 영원히 함께 살고 싶어.</MinchoWitch_RaceRatio.stages.4.description>
+  <!-- opinions on the Minchowitch -->
+  <Mincho_RaceRatio.stages.0.label>민초마녀에 대한 의견</Mincho_RaceRatio.stages.0.label>
+  <!-- I'm so glad she does many things for us, but sometimes... I think she is going too far.  Such as transforms other race into my kind. I'm happy to have more of my kind, but play with other race make me more happy and... excited. -->
+  <Mincho_RaceRatio.stages.0.description>그녀가 우리를 위해서 여러 가지를 해주는 건 매우 기뻐, 하지만 가끔... 도가 지나친 행동도 하는 거 같아. 다른 종족 애들을 나의 동족으로 변이시킨다든가. 동족이 늘어나는 건 기쁘지만, 다른 종족 애들과 노는 게 더 즐겁고... 흥분되는걸.</Mincho_RaceRatio.stages.0.description>
+  <!-- Mintchoco wraps body around -->
+  <MinchoWitch_MintchocoBiofilmThought.stages.0.label>민트초코가 몸을 감쌈</MinchoWitch_MintchocoBiofilmThought.stages.0.label>
+  <!-- It's a bit heavy, but it has a very refreshing scent. And... Hawn... -->
+  <MinchoWitch_MintchocoBiofilmThought.stages.0.description>조금 무겁긴 한데 굉장히 상쾌한 향이나. 그리고... 하읏...</MinchoWitch_MintchocoBiofilmThought.stages.0.description>
+</LanguageData>

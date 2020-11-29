@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- mincho infected outlander -->
+  <Mincho_NPC_Infection.label>민초 감염된 외부인</Mincho_NPC_Infection.label>
+  <!-- mincho infected colonist -->
+  <Mincho_Colonist_Infection.label>민초 감염된 정착민</Mincho_Colonist_Infection.label>
+  <!-- minchowitch colonist -->
+  <MinchoWitch_Colonist.label>민초마녀 정착민</MinchoWitch_Colonist.label>
+  <!-- minchogolem -->
+  <MinchoWitch_MinchoGolem.label>민초골렘</MinchoWitch_MinchoGolem.label>
+</LanguageData>

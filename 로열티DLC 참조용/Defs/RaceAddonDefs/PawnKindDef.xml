@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnKindDef>
+		<defName>MinchoWitch_Colonist</defName>
+		<label>minchowitch colonist</label>
+		<race>MinchoWitch</race>
+		<combatPower>80</combatPower>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>MinchoWitch_Backstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelTags>
+			<li>MinchoWitch</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>MinchoWitch_Hat</li>
+			<li>MinchoWitch_Lingerie</li>
+			<li>MinchoWitch_Robe</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>2400~4800</apparelMoney>
+	</PawnKindDef>
+</Defs>

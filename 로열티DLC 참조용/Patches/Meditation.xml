@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/MeditationFocusDef[defName="Natural"]/requiredBackstoriesAny</xpath>
+		<value>
+			<li>
+				<categoryName>Mincho_Infection_Colonist_BackstoryTag</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>Mincho_Infection_BackstoryTag</categoryName>
+				<slot>Childhood</slot>
+			</li>
+			<li>
+				<categoryName>MinchoWitch_Backstory</categoryName>
+				<slot>Childhood</slot>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

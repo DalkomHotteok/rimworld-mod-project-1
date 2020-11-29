@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>KR_flamethrower</defName>
+    <label>Flame thrower</label>
+    <description>A wide-barreled incendiary bolt launcher. The bolts create small incendiary explosions on impact, starting fires.</description>
+    <graphicData>
+      <texPath>Things/Weapons/FlameBomber_2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.3</generateCommonality>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>5</Mass>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_FlameBomb</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>26</range>
+        <forcedMissRadius>0.3</forcedMissRadius>
+        <burstShotCount>5</burstShotCount>
+		<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+		<soundCast>Shot_FlameLauncher</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_FlameBomb</defName>
+    <label>incendiary bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/LauncherShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <color>(254,189,58)</color>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>60</speed>
+      <damageDef>Flame</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionRadius>0.6</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+      <arcHeightFactor>0.2</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+    </projectile>
+  </ThingDef>
+  
+  	<!-- ==================== Charge gun ==================== -->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>DH_ChargeGun</defName>
+    <label>Charge gun</label>
+    <description>A pulse-charged rail-assisted lance weapon. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration rail. The White Guardian Weapon Lab (WGWL) research the technique of mechanoid, which shows high accuracy in electromagnetic induction. As a result, they created a human-handling Charge Lance. It means Model 'Catapult' was created. \n\nIt has increased the accuracy by install human fit optical equipment. But to be easy for human to handle, It had to reduce firepower.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Charge SMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<equippedAngleOffset>0</equippedAngleOffset>
+    <soundInteract>Interact_ChargeLance</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>8</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.56</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>140</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_charge</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>12</range>
+		<burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeGun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Garam_RaceAddon.AppearanceDef>
+		<defName>MinchoWitch_AppearanceDef_A</defName>
+		<!--Color List-->
+		<colorList>
+			<li>
+				<name>MinchoWitchColor</name>
+				<colorClass>Garam_RaceAddon.Only</colorClass>
+				<options>
+					<li>(255, 255, 255)	[100]</li>
+				</options>
+				<!--
+			[Garam_RaceAddon.Only]: 단일 색상을 생성합니다.				[option]: (R, G, B)[weight]
+			[Garam_RaceAddon.Range]: 랜덤한 범위 색상을 생성합니다.			[option]: (R, G, B)~(R, G, B)[weight]
+			[Garam_RaceAddon.Grayscale]: 회색조로 색상을 생성합니다.		[option]: (0)~(255)[weight]
+			[Garam_RaceAddon.Hair]: 림월드와 동일한 헤어색을 생성합니다.		[option]: None
+			[Garam_RaceAddon.Melanin]: 림월드와 동일한 피부색을 생성합니다.	[option]: (0.0)~(1.0)[weight]
+			-->
+			</li>
+		</colorList>
+		<!--Torso List-->
+		<torsoList>
+			<li>
+				<weight>10</weight>
+				<skinColor_Main>MinchoWitchColor</skinColor_Main>
+				<skinColor_Sub>MinchoWitchColor</skinColor_Sub>
+				<torsoDef>MinchoWitch_TorsoDef_A</torsoDef>
+			</li>
+		</torsoList>
+		<!--Face List-->
+		<faceList>
+			<li>
+				<weight>10</weight>
+				<faceColor_Main>MinchoWitchColor</faceColor_Main>
+				<faceColor_Sub>MinchoWitchColor</faceColor_Sub>
+				<upperFaceDef>MinchoWitch_Face_Upper_A</upperFaceDef>
+				<lowerFaceDef>MinchoWitch_Face_Lower_A</lowerFaceDef>
+			</li>
+		</faceList>
+		<!--Hair List-->
+		<hairList>
+			<li>
+				<weight>1.0</weight>
+				<hairColor_Main>MinchoWitchColor</hairColor_Main>
+				<hairColor_Sub>MinchoWitchColor</hairColor_Sub>
+				<hairTags>
+					<li>MinchoWitch_HairTag</li>
+				</hairTags>
+			</li>
+		</hairList>
+		<addonList>
+			<!-- null -->
+		</addonList>
+	</Garam_RaceAddon.AppearanceDef>
+</Defs>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<SoundDef>
+		<defName>Pawn_MinchoGolem_Myack</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>MinchoGolem_Myack</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>170</min>
+					<max>200</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.7</min>
+					<max>0.8</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Pawn_MinchoGolem_Wounded</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>MinchoGolem_Wounded1</clipFolderPath>
+					</li>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>MinchoGolem_Wounded3</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>200</min>
+					<max>200</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.7</min>
+					<max>0.8</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>MinchoGolem_Wounded2</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>350</min>
+					<max>350</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.7</min>
+					<max>0.8</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>Pawn_MinchoGolem_Death</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>MinchoGolem_Death</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>200</min>
+					<max>200</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.7</min>
+					<max>0.8</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>70</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>

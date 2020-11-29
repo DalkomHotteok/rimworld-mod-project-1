@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MinchoWitch_PotionHigh.label>minchowitch's potion cool</MinchoWitch_PotionHigh.label>
+  <MinchoWitch_PotionHigh.description>Drinking the potion made by the Minchowitch gives a strong refreshing feeling to the whole body.</MinchoWitch_PotionHigh.description>
+  <MinchoWitch_PotionHigh.stages.0.label>ingest minchowitch's potion</MinchoWitch_PotionHigh.stages.0.label>
+  <MinchoWitch_PotionHigh.stages.1.label>mechanites tolerance exceeded</MinchoWitch_PotionHigh.stages.1.label>
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.label>minchowitch's potion cool</MinchoWitch_PotionHigh_MinchoWitchOnly.label>
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.description>Drinking the potion made by the Minchowitch gives a strong refreshing feeling to the whole body. However, the effect does not last long due to the strong detoxification power of the Minchowitch itself.</MinchoWitch_PotionHigh_MinchoWitchOnly.description>
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.label>ingest minchowitch's potion</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.label>
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.label>the privileges of the Minchowitch</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.label>
+  <MinchoWitch_PotionHigh_MinchoOnly.label>minchowitch's potion cool</MinchoWitch_PotionHigh_MinchoOnly.label>
+  <MinchoWitch_PotionHigh_MinchoOnly.description>Drinking the potion made by the Minchowitch gives a strong refreshing feeling to the whole body. However, the effect does not last long due to the strong detoxification power of the Mincho itself.</MinchoWitch_PotionHigh_MinchoOnly.description>
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.0.label>ingest minchowitch's potion</MinchoWitch_PotionHigh_MinchoOnly.stages.0.label>
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.1.label>the privileges of the Mincho</MinchoWitch_PotionHigh_MinchoOnly.stages.1.label>
+  <Mincho_Infection.label>mincho infection</Mincho_Infection.label>
+  <Mincho_Infection.description>It is a disease that occurs when mutated mechanites is not released out of the body and is over-accumulated in the body. This over-accumulation is caused by mincho beam, mintchoco fallout, and the taking of Minchowitch' potion. This over-accumulation can only be treated through the special serum..\n\nThe creature's body that gets this disease is slowly decomposed and restructured by mutated mechanites, and some part of the body becomes mintchoco and eventually becomes Mincho..\n\nThe moment become Mincho, the equipment and belongings become mintchoco too. But colonists are aware of the disease, so this doesn't happen by throwing away what they were picking right before they become Mincho.</Mincho_Infection.description>
+  <Mincho_Infection.comps.0.ConverLetterLabel>{0} : Mincho infection</Mincho_Infection.comps.0.ConverLetterLabel>
+  <Mincho_Infection.comps.0.ConverLetterText>{0} has mutated!</Mincho_Infection.comps.0.ConverLetterText>
+  <Mincho_Infection.stages.0.label>minor</Mincho_Infection.stages.0.label>
+  <Mincho_Infection.stages.1.label>moderate</Mincho_Infection.stages.1.label>
+  <Mincho_Infection.stages.2.label>severe</Mincho_Infection.stages.2.label>
+  <Mincho_Infection.stages.3.label>extreme</Mincho_Infection.stages.3.label>
+  <Mincho_Infection_Instant.label>mincho infection instant</Mincho_Infection_Instant.label>
+  <Mincho_Infection_Instant.description>즉각적으로 민초로 변신시키기 위한 Hediff 입니다</Mincho_Infection_Instant.description>
+  <Mincho_Infection_Instant.comps.0.ConverLetterLabel>{0} : Ascension</Mincho_Infection_Instant.comps.0.ConverLetterLabel>
+  <Mincho_Infection_Instant.comps.0.ConverLetterText>{0} has ascended!</Mincho_Infection_Instant.comps.0.ConverLetterText>
+  <Mincho_Infection_Instant.stages.0.label>minor</Mincho_Infection_Instant.stages.0.label>
+  <Mincho_Infection_Instant.stages.1.label>moderate</Mincho_Infection_Instant.stages.1.label>
+  <Mincho_Infection_Instant.stages.2.label>severe</Mincho_Infection_Instant.stages.2.label>
+  <Mincho_Infection_Instant.stages.3.label>extreme</Mincho_Infection_Instant.stages.3.label>
+  <MinchoWitch_Iced_Brain.label>Iced brain</MinchoWitch_Iced_Brain.label>
+  <MinchoWitch_Iced_Brain.description>It's a phenomenon that occurs when the mutated mechanites temporarily stays in the brain, which absorbs the neural heat of the brain instead. In this process, it gives the consumer a strong freshness. Occurs when large amounts of mintchoco or concentrated mechanites are taken at once, such as MintchocoCake or minchowitch's potion. Because minchowitch's  brain is very sensitive to mechanites , this happens instead of ice-cream headache when eating mintchoco.</MinchoWitch_Iced_Brain.description>
+  <MinchoWitch_Iced_Brain.comps.0.discoverLetterLabel>{0} become Iced brain</MinchoWitch_Iced_Brain.comps.0.discoverLetterLabel>
+  <MinchoWitch_Iced_Brain.comps.0.discoverLetterText>{0} is so refreshed that head is like freezing. {0} can fast reduce the entropy (neural heat) caused by using psycast.</MinchoWitch_Iced_Brain.comps.0.discoverLetterText>
+  <MinchoWitch_MintchocoLimb.label>mintchoco limb</MinchoWitch_MintchocoLimb.label>
+  <MinchoWitch_MintchocoLimb.labelNoun>a mintchoco limb</MinchoWitch_MintchocoLimb.labelNoun>
+  <MinchoWitch_MintchocoLimb.description>Part of her body became mintchoco. It is caused by transplanting mintchoco to a limb through surgery or by Mincho infection. It's very inefficient compared to a normal body. Instead, I get less hungry.</MinchoWitch_MintchocoLimb.description>
+  <MinchoWitch_MintchocoBiofilm.label>mintchoco biofilm</MinchoWitch_MintchocoBiofilm.label>
+  <MinchoWitch_MintchocoBiofilm.labelNoun>a mintchoco biofilm</MinchoWitch_MintchocoBiofilm.labelNoun>
+  <MinchoWitch_MintchocoBiofilm.description>Wrapping the target's body in mintchoco slime to protect the target from external shocks. It's fairly heavy, which makes target slower, but doesn't interfere with the swinging the weapon. Although it doesn't have intelligence... It's been a bit of a whatchamacallit because slime is "wriggles".</MinchoWitch_MintchocoBiofilm.description>
+  <MinchoWitch_MinchoGolem_NoPain.label>Golem's toughness</MinchoWitch_MinchoGolem_NoPain.label>
+  <MinchoWitch_MinchoGolem_NoPain.description>Golem's toughness</MinchoWitch_MinchoGolem_NoPain.description>
+  <MinchoWitch_MinchoGolem_NoPain.stages.0.label>permanent</MinchoWitch_MinchoGolem_NoPain.stages.0.label>
+</LanguageData>

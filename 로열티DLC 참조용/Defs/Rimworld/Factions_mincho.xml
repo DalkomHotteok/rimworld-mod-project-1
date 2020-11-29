@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef>
+		<defName>MinchoWitch_PlayerFaction</defName>
+		<label>MinchoWitch's new colony</label>
+		<description>It is the colony of the Mincho.</description>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<colorSpectrum>
+			<li>(0.8, 0.976, 0.945)</li>
+			<!--204, 249,241-->
+		</colorSpectrum>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>Colonist</basicMemberKind>
+		<pawnSingular>colonist</pawnSingular>
+		<pawnsPlural>colonists</pawnsPlural>
+		<techLevel>Industrial</techLevel>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Offworld</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>MinchoWitch/Faction</factionIconPath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFaction_Mincho</factionNameMaker>
+		<settlementNameMaker>NamerSettlement_Mincho</settlementNameMaker>
+		<pawnNameMaker>Mincho_NamerPerson</pawnNameMaker>
+		<geneticVariance>0</geneticVariance>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+			<li>ClassicStart</li>
+			<li>ClassicStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+	<!--
+<FactionDef ParentName="TribeBase">
+	<defName>Mincho_Faction</defName>
+	<label>Mincho's colony</label>
+	<description>It's a colony of Mincho. They like human races, and they will not be hostile unless they are attacked separately.</description>
+	<colorSpectrum>
+		<li>(0.0, 1.0, 1.0)</li>
+	</colorSpectrum>
+	<startingGoodwill>90~100</startingGoodwill>
+	<naturalColonyGoodwill>-30~100</naturalColonyGoodwill>
+	<pawnSingular>mincho</pawnSingular>
+	<pawnsPlural>minchos</pawnsPlural>
+	<listOrderPriority>249</listOrderPriority>
+	<settlementGenerationWeight>0.6</settlementGenerationWeight>
+	<requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<canMakeRandomly>true</canMakeRandomly>
+	<canSiege>false</canSiege>
+	<canStageAttacks>true</canStageAttacks>
+	<leaderTitle>elder</leaderTitle>
+	<factionIconPath>Mincho/Faction/Texture</factionIconPath>
+	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<techLevel>Industrial</techLevel>
+	<backstoryFilters>
+		<li>
+			<categories>
+				<li>Outlander</li>
+			</categories>
+			<commonality>0.95</commonality>
+		</li>
+		<li>
+			<categories>
+				<li>Offworld</li>
+			</categories>
+			<commonality>0.05</commonality>
+		</li>
+	</backstoryFilters>
+	<geneticVariance>0</geneticVariance>
+	<hairTags>
+		<li>Rural</li>
+	</hairTags>
+	<caravanTraderKinds>
+		<li>Caravan_Outlander_BulkGoods</li>
+		<li>Caravan_Outlander_CombatSupplier</li>
+		<li>Caravan_Outlander_Exotic</li>
+		<li>Caravan_Outlander_PirateMerchant</li>
+	</caravanTraderKinds>
+	<visitorTraderKinds>
+		<li>Visitor_Outlander_Standard</li>
+	</visitorTraderKinds>
+	<baseTraderKinds>
+		<li>Base_Outlander_Standard</li>
+	</baseTraderKinds>
+	<allowedArrivalTemperatureRange>-30~45</allowedArrivalTemperatureRange>
+	<maxPawnCostPerTotalPointsCurve>
+		<points>
+			<li>(0,35)</li>
+			<li>(70, 50)</li>
+			<li>(700, 100)</li>
+			<li>(1300, 150)</li>
+			<li>(100000, 10000)</li>
+		</points>
+	</maxPawnCostPerTotalPointsCurve>
+	<pawnGroupMakers>
+		<li>
+			<kindDef>Combat</kindDef>
+			<options>
+				<Mincho_Soldier>4</Mincho_Soldier>
+				<Mincho_EliteSoldier>2</Mincho_EliteSoldier>
+				<Mincho_Sniper>1</Mincho_Sniper>
+				<Mincho_Elite>1</Mincho_Elite>
+			</options>
+		</li>
+		<li>
+			<kindDef>Peaceful</kindDef>
+			<options>
+				<Mincho_Citizen>10</Mincho_Citizen>
+				<Mincho_Trader>4</Mincho_Trader>
+				<Mincho_Elite>6</Mincho_Elite>
+				<Mincho_Soldier>2</Mincho_Soldier>
+				<Mincho_EliteSoldier>1</Mincho_EliteSoldier>
+			</options>
+		</li>
+		<li>
+			<kindDef>Trader</kindDef>
+			<traders>
+				<Mincho_Trader>1</Mincho_Trader>
+			</traders>
+			<carriers>
+				<Muffalo>6</Muffalo>
+				<Dromedary>5</Dromedary>
+				<Alpaca>2</Alpaca>
+				<Elephant>1</Elephant>
+			</carriers>
+			<guards>
+				<Mincho_Vigilante>8</Mincho_Vigilante>
+				<Mincho_Soldier>6</Mincho_Soldier>
+				<Mincho_EliteSoldier>2</Mincho_EliteSoldier>
+			</guards>
+		</li>
+		<li>
+			<kindDef>Settlement</kindDef>
+			<options>
+				<Mincho_Vigilante>8</Mincho_Vigilante>
+				<Mincho_Soldier>12</Mincho_Soldier>
+				<Mincho_EliteSoldier>8</Mincho_EliteSoldier>
+				<Mincho_Sniper>4</Mincho_Sniper>
+			</options>
+		</li>
+	</pawnGroupMakers>
+	<settlementTexturePath>Mincho_Item/Mincho_faction</settlementTexturePath>
+</FactionDef>
+-->
+</Defs>

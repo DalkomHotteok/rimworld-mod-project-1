@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Minchowitch's experiment -->
+  <MinchoWithch_Scenario.scenario.name>민초마녀의 실험</MinchoWithch_Scenario.scenario.name>
+  <MinchoWithch_Scenario.scenario.label>민초마녀의 실험</MinchoWithch_Scenario.scenario.label>
+  <!-- The three subjects, obsessed with the Minchowitch, escaped just before they were offered to the Mincho, but fell into a trap at the last moment. The trap was filled with strangely sweet-smelling gases, but the three subjects were able to escape without any problems.\n\nBut not long before they realized that even escape was part of a mint chocolate witch's experiment...\n\n(Don't choice colonist who Intellectual skill is high)\n\n(Minchowitch joins the colony 8 days later) -->
+  <MinchoWithch_Scenario.scenario.description>민초마녀에게 사로잡힌 세 실험체는 민초들에게 바쳐지기 일보 직전, 아슬아슬하게 탈출했지만 마지막 순간 함정에 빠졌습니다. 함정 속은 묘하게 달콤한 냄새가 나는 가스가 가득 차 있었지만 세 실험체는 아무 이상 없이 무사히 빠져 나올 수 있었습니다.\n\n하지만 머지않아 그들은 탈출마저 민초마녀의 실험 중 일부인 것을 깨달았습니다...\n\n(연구 스탯이 높은 림은 가능하면 고르지 마십시오)\n\n(민초마녀는 8일후, 정착지에 합류합니다)</MinchoWithch_Scenario.scenario.description>
+  <!-- It is the story of three poor subjects who thought they had escaped the Minchowitch's grasp. But even escaped was part of the experiment. -->
+  <MinchoWithch_Scenario.scenario.summary>민초마녀의 손아귀에서 벗어났다고 생각했지만 탈출마저 실험 중 일부였던 불쌍한 세 실험체의 이야기입니다.</MinchoWithch_Scenario.scenario.summary>
+  <!-- We've barely escaped. But body is a little weird... -->
+  <MinchoWithch_Scenario.scenario.parts.19.text>겨우 도망쳐왔어... 근데 몸이 조금 이상한거 같아...</MinchoWithch_Scenario.scenario.parts.19.text>
+
+</LanguageData>

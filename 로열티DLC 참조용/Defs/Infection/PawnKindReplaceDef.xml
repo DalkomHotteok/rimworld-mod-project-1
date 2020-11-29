@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--<Garam_RaceAddon.CustomPawnKindDef>
+		<defName>Mincho_CustomPawnKindDef</defName>
+		<pawnKindDefReplaceSettings>
+			<li>
+				<originalPawnKindDef>WildMan</originalPawnKindDef>
+				<originalWeight>10</originalWeight>
+				<replacedPawnKindDef>Mincho_WildMan_Infection</replacedPawnKindDef>
+				<replacedWeight>0</replacedWeight>
+			</li>
+			<li>
+				<originalPawnKindDef>WildMan</originalPawnKindDef>
+				<originalWeight>10</originalWeight>
+				<replacedPawnKindDef>Mincho_Animal_Infection</replacedPawnKindDef>
+				<replacedWeight>0</replacedWeight>
+			</li>
+		</pawnKindDefReplaceSettings>
+
+	</Garam_RaceAddon.CustomPawnKindDef>-->
+</Defs>

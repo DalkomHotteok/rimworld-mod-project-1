@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<Garam_RaceAddon.RaceAddonThingDef ParentName="BasePawn">
+		<defName>MinchoWitch</defName>
+		<label>minchowitch</label>
+		<description>Marilyn was originally a tribal girl. One day, the parents were killed in a pirate attack, and Marilyn was sold to the Empire as a slave. The Empire, which discovered the qualities of psychic in Marilyn, sent her to the Institute of psychic.\n\nThe Empire wanted to control the Mincho - slime type creatures discovered in recent years - with psychic and use it as a weapon and a labor force. But the Mincho was numb to psychic in the first place, so there was no progress in research.\n\nThe institute hypothesized that if parasites the mutated mechanites - which makes up the body of the Mincho - a human body that has qualities of psychic, it can control the mutated mechanites in the body through psychic, and as a result, it will can directly or indirectly control the Mincho. The Institute of psychic installed a psychic amplifier that includes mutated mechanites in Marilyn's brain for enlighten psychic, and parasite mutated mechanites.\n\nBut at the time, Marilyn's mind was devastated by the murder of her parents, and when a test-modified psychic amplifier was installed there, Marilyn went completely insane. At the same time, the psychic exploded, releasing the mutated mechanites indiscriminately, and the researchers exposed to it became the Mincho when the body was reconstructed by the mutated mechanites.\n\nMarilyn escaped from the Institute and disappeared for several years, and reappearing. Her mind was completely rebuilt by the modified psychic amplifier, and she believes that Mincho is what will lead her to salvation. Marilyn calls herself a "Minchowitch" and worships and serves the Mincho at the same time.</description>
+		<!--Race Addon Settings-->
+		<raceAddonSettings>
+			<!--Age Setting-->
+			<ageSettings>
+				<li>
+					<gender>None</gender>
+					<minAge>0</minAge>
+					<!--<ageBackstory>MyRace_Childhood_NewBornBaby</ageBackstory>-->
+					<drawSize>
+						<head>(0.4, 0.4)</head>
+						<body>(0.4, 0.4)</body>
+					</drawSize>
+					<hideHat>false</hideHat>
+					<keepAppearance>true</keepAppearance>
+					<appearances>
+						<li>
+							<weight>1.0</weight>
+							<appearanceDef>MinchoWitch_AppearanceDef_A</appearanceDef>
+						</li>
+					</appearances>
+				</li>
+				<li>
+					<gender>None</gender>
+					<minAge>6</minAge>
+					<!--<ageBackstory>MyRace_Childhood_NewBornBaby</ageBackstory>-->
+					<drawSize>
+						<head>(0.6, 0.6)</head>
+						<body>(0.6, 0.6)</body>
+					</drawSize>
+					<hideHat>false</hideHat>
+					<keepAppearance>true</keepAppearance>
+					<appearances>
+						<li>
+							<weight>1.0</weight>
+							<appearanceDef>MinchoWitch_AppearanceDef_A</appearanceDef>
+						</li>
+					</appearances>
+				</li>
+				<li>
+					<gender>None</gender>
+					<minAge>12</minAge>
+					<!--<ageBackstory>MyRace_Childhood_NewBornBaby</ageBackstory>-->
+					<drawSize>
+						<head>(0.8, 0.8)</head>
+						<body>(0.8, 0.8)</body>
+					</drawSize>
+					<hideHat>false</hideHat>
+					<keepAppearance>true</keepAppearance>
+					<appearances>
+						<li>
+							<weight>1.0</weight>
+							<appearanceDef>MinchoWitch_AppearanceDef_A</appearanceDef>
+						</li>
+					</appearances>
+				</li>
+				<li>
+					<gender>None</gender>
+					<minAge>18</minAge>
+					<!--<ageBackstory>MyRace_Childhood_NewBornBaby</ageBackstory>-->
+					<drawSize>
+						<head>(1.0, 1.0)</head>
+						<body>(1.0, 1.0)</body>
+					</drawSize>
+					<hideHat>false</hideHat>
+					<keepAppearance>true</keepAppearance>
+					<appearances>
+						<li>
+							<weight>1.0</weight>
+							<appearanceDef>MinchoWitch_AppearanceDef_A</appearanceDef>
+						</li>
+					</appearances>
+				</li>
+			</ageSettings>
+			<!--Graphic Setting-->
+			<graphicSetting>
+				<!--Basic-->
+				<rottingColor>(0, 0, 0, 0)</rottingColor>
+				<drawWound>true</drawWound>
+				<!--Animation-->
+				<eyeBlink>true</eyeBlink>
+				<fixedUpperFace>true</fixedUpperFace>
+				<headAnimation>true</headAnimation>
+				<headTargeting>true</headTargeting>
+				<!--Draw-->
+				<drawHat>true</drawHat>
+				<drawHat_Exceptions>
+					<!--null-->
+				</drawHat_Exceptions>
+				<drawHair>true</drawHair>
+				<drawHair_Exceptions>
+					<!--null-->
+				</drawHair_Exceptions>
+			</graphicSetting>
+			<!--Basic Setting-->
+			<basicSetting>
+				<maleChance>0.0</maleChance>
+				<raceSexuality>3</raceSexuality>
+				<!--
+			[0]: None, determined by Trait
+			[1]: Always Asexual, without Trait
+			[2]: Always Bisexual, without Trait
+			[3]: Always Gay, without Trait
+			-->
+				<raceHeadDef>Head</raceHeadDef>
+				<humanlikeMeat>true</humanlikeMeat>
+				<recipeImportTarget>Human</recipeImportTarget>
+				<maxDamageForSocialfight>6</maxDamageForSocialfight>
+			</basicSetting>
+			<!--Characterization Setting-->
+			<characterizationSetting>
+				<!--Work-->
+				<workDisables>
+					<!--<li>None</li>
+					<li>ManualDumb</li>
+					<li>ManualSkilled</li>
+					<li>Violent</li>
+					<li>Caring</li>
+					<li>Social</li>
+					<li>Intellectual</li>
+					<li>Animals</li>
+					<li>Artistic</li>
+					<li>Crafting</li>
+					<li>Cooking</li>
+					<li>Firefighting</li>
+					<li>Cleaning</li>
+					<li>Hauling</li>
+					<li>PlantWork</li>
+					<li>Mining</li>-->
+				</workDisables>
+				<!--Skill-->
+				<skillGains>
+					<Construction>-5</Construction>
+					<Plants>7</Plants>
+					<Intellectual>15</Intellectual>
+					<Mining>-5</Mining>
+					<Shooting>-5</Shooting>
+					<Melee>-5</Melee>
+					<Social>3</Social>
+					<Animals>3</Animals>
+					<Cooking>3</Cooking>
+					<Medicine>10</Medicine>
+					<Artistic>3</Artistic>
+					<Crafting>3</Crafting>
+				</skillGains>
+				<!--Trait-->
+				<forcedTraits>
+					<li>
+						<traitDef>TooSmart</traitDef>
+						<degree>0</degree>
+					</li>
+					<li>
+						<traitDef>Bloodlust</traitDef>
+						<degree>0</degree>
+					</li>
+					<li>
+						<traitDef>Kind</traitDef>
+						<degree>0</degree>
+					</li>
+				</forcedTraits>
+				<!--Hediff-->
+				<forcedHediffs>
+					<li>
+						<hediffDef>PsychicAmplifier</hediffDef>
+						<targetPart>Brain</targetPart>
+						<severity>2.0</severity>
+						<chance>1.0</chance>
+					</li>
+				</forcedHediffs>
+				<replacedHediffs>
+					<li>
+						<originalHediffDef>Mincho_Brain_freeze</originalHediffDef>
+						<replacedHediffDef>MinchoWitch_Iced_Brain</replacedHediffDef>
+					</li>
+				</replacedHediffs>
+				<!--Thought-->
+				<replacedThoughts>
+					<li>
+						<originalThoughtDef>MinchoWitch_PotionHigh</originalThoughtDef>
+						<replacedThoughtDef>MinchoWitch_PotionHigh_MinchoWitchOnly</replacedThoughtDef>
+					</li>
+				</replacedThoughts>			
+			</characterizationSetting>
+			<!--Health Setting-->
+			<healthSetting>
+				<greyHairAt>0</greyHairAt>
+				<antiAging>true</antiAging>
+				<dropBloodFilth>true</dropBloodFilth>
+				<healingFactor>1.0</healingFactor>
+				<damageFactor>1.0</damageFactor>
+				<painFactor>1.0</painFactor>
+			</healthSetting>
+			<!--Relation Setting-->
+			<relationSetting>
+				<randomRelationAllow>false</randomRelationAllow>
+				<sameRaces>
+					<li>Mincho_ThingDef</li>
+				</sameRaces>
+				<sameRace>
+					<compatibilityBonus>1.0</compatibilityBonus>
+					<loveChanceFactor_Male>
+						<minAgeValue>1.0</minAgeValue>
+						<minAgeDifference>-300</minAgeDifference>
+						<lowerAgeDifference>-100</lowerAgeDifference>
+						<upperAgeDifference>100</upperAgeDifference>
+						<maxAgeDifference>300</maxAgeDifference>
+						<maxAgeValue>1.0</maxAgeValue>
+						<finalCorrectionValue>1.0</finalCorrectionValue>
+					</loveChanceFactor_Male>
+					<loveChanceFactor_Female>
+						<minAgeValue>1.0</minAgeValue>
+						<minAgeDifference>-300</minAgeDifference>
+						<lowerAgeDifference>-100</lowerAgeDifference>
+						<upperAgeDifference>100</upperAgeDifference>
+						<maxAgeDifference>300</maxAgeDifference>
+						<maxAgeValue>1.0</maxAgeValue>
+						<finalCorrectionValue>1.0</finalCorrectionValue>
+					</loveChanceFactor_Female>
+				</sameRace>
+				<otherRace>
+					<compatibilityBonus>-0.5</compatibilityBonus>
+					<loveChanceFactor_Male>
+						<minAgeValue>0.0</minAgeValue>
+						<minAgeDifference>-10</minAgeDifference>
+						<lowerAgeDifference>-3</lowerAgeDifference>
+						<upperAgeDifference>3</upperAgeDifference>
+						<maxAgeDifference>10</maxAgeDifference>
+						<maxAgeValue>0.0</maxAgeValue>
+						<finalCorrectionValue>0.0</finalCorrectionValue>
+					</loveChanceFactor_Male>
+					<loveChanceFactor_Female>
+						<minAgeValue>0.0</minAgeValue>
+						<minAgeDifference>-10</minAgeDifference>
+						<lowerAgeDifference>-3</lowerAgeDifference>
+						<upperAgeDifference>3</upperAgeDifference>
+						<maxAgeDifference>10</maxAgeDifference>
+						<maxAgeValue>0.0</maxAgeValue>
+						<finalCorrectionValue>0.0</finalCorrectionValue>
+					</loveChanceFactor_Female>
+				</otherRace>
+				<specialRaces>
+					<!--null-->
+				</specialRaces>
+			</relationSetting>
+			<!--Apparel Restriction Setting-->
+			<apparelRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<!--null-->
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<li>MinchoWitch_Hat</li>
+					<li>MinchoWitch_Lingerie</li>
+					<li>MinchoWitch_Robe</li>
+					
+					<li>Mincho_CupHat</li>
+					<li>Mincho_Knitwear</li>
+					<li>Mincho_Knitwear_Reverse</li>
+					<li>Mincho_RatEar</li>
+					<li>Mincho_RatTail</li>
+					<li>Mincho_ChocoCrust</li>
+					<li>Mincho_KnightlyDress</li>
+					<li>Mincho_ChocolateCoatingDress</li>
+					<li>Mincho_ChocolateNegligee</li>
+					<li>Mincho_MintchocoDonutTiara</li>
+					<li>Mincho_SeeThroughShawl</li>
+					<li>Mincho_KnightlyTiara</li>
+				</raceSpecifics>
+			</apparelRestrictionSetting>
+			<!--Weapon Restriction Setting-->
+			<weaponRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<!--null-->
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<!--null-->
+				</raceSpecifics>
+			</weaponRestrictionSetting>
+			<!--WorkGiver Restriction Setting-->
+			<workGiverRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<!--null-->
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<!--null-->
+				</raceSpecifics>
+			</workGiverRestrictionSetting>
+			<!--Trait Restriction Setting-->
+			<traitRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<li>
+						<traitDef>Beauty</traitDef>
+						<degree>-1</degree>
+					</li>
+					<li>
+						<traitDef>Beauty</traitDef>
+						<degree>-2</degree>
+					</li>
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<!--<li><traitDef>Beauty</traitDef><degree>2</degree></li>-->
+					<!--<li><traitDef>Beauty</traitDef><degree>1</degree></li>-->
+				</raceSpecifics>
+			</traitRestrictionSetting>
+			<!--Hediff Restriction Setting-->
+			<hediffRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<li>Mincho_Infection</li>
+					<li>Mincho_Infection_Instant</li>
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<li>MinchoWitch_PotionHigh_MinchoWitchOnly</li>
+					<li>MinchoWitch_Iced_Brain</li>
+				</raceSpecifics>
+			</hediffRestrictionSetting>
+			<!--Mood Restriction Setting-->
+			<thoughtRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<li>GainedTitle</li>
+					<li>LostTitle</li>
+					<li>TitleApparelRequirementNotMet</li>
+					<li>TitleApparelMinQualityNotMet</li>
+					<li>TitleThroneroomRequirementsNotMet</li>
+					<li>TitleBedroomRequirementsNotMet</li>
+					<li>TitleNoThroneRoom</li>
+					<li>TitleNoPersonalBedroom</li>
+					<li>DecreeFailed</li>
+					<li>DecreeMet</li>
+					<li>Disinherited</li>
+					<li>AteFoodInappropriateForTitle</li>
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<!--null-->
+				</raceSpecifics>
+			</thoughtRestrictionSetting>
+			<!--Building Restriction Setting-->
+			<buildingRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<!--null-->
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<!--null-->
+				</raceSpecifics>
+			</buildingRestrictionSetting>
+			<!--Food Restriction Setting-->
+			<foodRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<!--null-->
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<!--null-->
+				</raceSpecifics>
+			</foodRestrictionSetting>
+			<!--Plant Restriction Setting-->
+			<plantRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<!--null-->
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<!--null-->
+				</raceSpecifics>
+			</plantRestrictionSetting>
+			<!--Animal Restriction Setting-->
+			<animalRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<!--null-->
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<!--null-->
+				</raceSpecifics>
+			</animalRestrictionSetting>
+			<!--Recipe Restriction Setting-->
+			<recipeRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<!--null-->
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<!--null-->
+				</raceSpecifics>
+			</recipeRestrictionSetting>
+			<!--Research Restriction Setting-->
+			<researchRestrictionSetting>
+				<allAllow>true</allAllow>
+				<allAllow_Exceptions>
+					<!--null-->
+				</allAllow_Exceptions>
+				<raceSpecifics>
+					<!--null-->
+				</raceSpecifics>
+			</researchRestrictionSetting>
+		</raceAddonSettings>
+		<!--Stat Bases-->
+		<statBases>
+			<PsychicSensitivity>1.5</PsychicSensitivity>
+			<MarketValue>2100</MarketValue>
+			<MoveSpeed>4.6</MoveSpeed>
+			<Flammability>1.0</Flammability>
+			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMax>30</ComfyTemperatureMax>
+			<LeatherAmount>50</LeatherAmount>
+			<RoyalFavorValue>15</RoyalFavorValue>
+		</statBases>
+		<!--Tools-->
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>teeth</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.4</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<!--Race-->
+		<race>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>100</lifeExpectancy>
+			<useLeatherFrom>Human</useLeatherFrom>
+			<useMeatFrom>Human</useMeatFrom>
+			<nameCategory>HumanStandard</nameCategory>
+			<body>Human</body>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<foodType>OmnivoreHuman</foodType>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<meatMarketValue>0.8</meatMarketValue>
+			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>HumanlikeBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>HumanlikeToddler</def>
+					<minAge>1</minAge>
+				</li>
+				<li>
+					<def>HumanlikeChild</def>
+					<minAge>6</minAge>
+				</li>
+				<li>
+					<def>HumanlikeTeenager</def>
+					<minAge>12</minAge>
+				</li>
+				<li>
+					<def>HumanlikeAdult</def>
+					<minAge>18</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(14, 0</li>
+					<li>(16, 0)</li>
+					<li>(20, 64)</li>
+					<li>(40, 0)</li>
+					<li>(50, 0)</li>
+					<li>(60, 0)</li>
+					<li>(70, 0)</li>
+					<li>(80, 0)</li>
+					<li>(90, 0)</li>
+					<li>(100, 0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+				<li>Human</li>
+			</hediffGiverSets>
+		</race>
+		<!--Recipes-->
+		<recipes>
+
+		</recipes>
+	</Garam_RaceAddon.RaceAddonThingDef>
+</Defs>

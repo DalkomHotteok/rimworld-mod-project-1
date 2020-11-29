@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- minchowitch -->
+  <MinchoWitch.label>민초마녀</MinchoWitch.label>
+  <!-- Marilyn was originally a tribal girl. One day, the parents were killed in a pirate attack, and Marilyn was sold to the Empire as a slave. The Empire, which discovered the qualities of psychic in Marilyn, sent her to the Institute of psychic.\n\nThe Empire wanted to control the Mincho - slime type creatures discovered in recent years - with psychic and use it as a weapon and a labor force. But the Mincho was numb to psychic in the first place, so there was no progress in research.\n\nThe institute hypothesized that if parasites the mutated mechanites - which makes up the body of the Mincho - a human body that has qualities of psychic, it can control the mutated mechanites in the body through psychic, and as a result, it will can directly or indirectly control the Mincho. The Institute of psychic installed a psychic amplifier that includes mutated mechanites in Marilyn's brain for enlighten psychic, and parasite mutated mechanites.\n\nBut at the time, Marilyn's mind was devastated by the murder of her parents, and when a test-modified psychic amplifier was installed there, Marilyn went completely insane. At the same time, the psychic exploded, releasing the mutated mechanites indiscriminately, and the researchers exposed to it became the Mincho when the body was reconstructed by the mutated mechanites.\n\nMarilyn escaped from the Institute and disappeared for several years, and reappearing. Her mind was completely rebuilt by the modified psychic amplifier, and she believes that Mincho is what will lead her to salvation. Marilyn calls herself a "Minchowitch" and worships and serves the Mincho at the same time. -->
+  <MinchoWitch.description>마릴린은 원래 부족민의 여자아이였습니다. 어느 날 해적의 습격으로 부모는 살해당하였고, 마릴린은 제국에 노예로 팔려 갔습니다. 마릴린에게서 초능력의 자질을 발견한 제국은 그녀를 초능력 연구소로 보냈습니다.\n\n제국에선 최근 몇 년 사이 발견된 슬라임 형 생명체 - 민초를 초능력으로 조종하여 병기 및 노동력으로 사용하고자 했습니다. 하지만 민초는 애초에 초능력에 무감각했기에 연구의 진전이 없는 상태였습니다.\n\n연구소에서는 초능력에 자질이 있는 인간에게 민초의 신체를 구성하는 변종 메카나이트를 기생시키면 초능력을 통해 체내의 변종 메카나이트를 통제할 수 있고, 결과적으로 민초도 직간접적으로 조종할 수 있을 것이란 가설을 세웠습니다. 초능력 연구소는 마릴린의 초능력을 개화시키는 것과 동시에 변종 메카나이트를 기생시키기 위해 변종 메카나이트가 포함된 정신력 증폭기를 마릴린의 뇌에 설치했습니다.\n\n그러나 당시 마릴린의 마음은 부모가 살해당한 사건 때문에 매우 피폐해져 있었고, 거기에 시험적으로 개조된 정신력 증폭기가 설치되자, 마릴린은 완전히 미쳐버리고 말았습니다. 동시에 초능력이 폭주하여 변종 메카나이트를 마구잡이로 방출했고, 이에 노출된 연구원들은 신체가 변종 메카나이트에 의해 재구성되면서 민초가 되어버리고 말았습니다.\n\n마릴린은 연구소를 탈주한 뒤, 몇 년간 모습을 감췄다가 다시 나타났습니다. 개조된 정신력 증폭기 때문에 정신이 완전히 재구축된 그녀는 민초가 자신을 구원으로 이끌어줄 존재라고 생각하고 있습니다. 마릴린은 자신을 "민초마녀"라고 자칭하며 민초들을 숭배하고 동시에 부리고 있습니다.</MinchoWitch.description>
+  <!-- left fist -->
+  <MinchoWitch.tools.0.label>왼쪽 주먹</MinchoWitch.tools.0.label>
+  <!-- right fist -->
+  <MinchoWitch.tools.1.label>오른쪽 주먹</MinchoWitch.tools.1.label>
+  <!-- teeth -->
+  <MinchoWitch.tools.2.label>이빨</MinchoWitch.tools.2.label>
+  <!-- head -->
+  <MinchoWitch.tools.3.label>머리</MinchoWitch.tools.3.label>
+</LanguageData>

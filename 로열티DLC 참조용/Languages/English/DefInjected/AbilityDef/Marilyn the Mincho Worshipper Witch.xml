@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MinchoWitchChill.label>chill</MinchoWitchChill.label>
+  <MinchoWitchChill.description>Causes hallucinations that make everyone near the target point feel as if they are in an extremely cold place. This hallucination occurs regardless of the target's Insulation - Cold, and it is actually succumbed to frostbite when used multiple times on the same target.</MinchoWitchChill.description>
+  <MinchoWitchMintchocoBiofilm.label>mintchoco biofilm</MinchoWitchMintchocoBiofilm.label>
+  <MinchoWitchMintchocoBiofilm.description>Wrapping the target's body in mintchoco slime to protect the target from external shocks. It's fairly heavy, which makes target slower, but doesn't interfere with the swinging the weapon. Although it doesn't have intelligence... It's been a bit of a whatchamacallit because slime is "wriggles".</MinchoWitchMintchocoBiofilm.description>
+  <MinchoWitchMinchoBeam.label>minchobeam</MinchoWitchMinchoBeam.label>
+  <MinchoWitchMinchoBeam.description>Using the psychic instantly injects a large amount of mutated mechanites into the target's body and transform the target into a Mincho.\n\nThe Minchowitch calls it "Make the Master's Friend", "Ascension", etc. However, the Mincho does not actively welcome to make another race into their own kind.</MinchoWitchMinchoBeam.description>
+  <MinchoWitchMassMinchoBeam.label>mass minchobeam</MinchoWitchMassMinchoBeam.label>
+  <MinchoWitchMassMinchoBeam.description>"Using the psychic instantly injects a large amount of mutated mechanites into everyone's body near the target.\n\nSince the mutated mechanites are dispersed, the target cannot be transformed immediately, but if used multiple times on the same target, it immediately transforms into Mincho."</MinchoWitchMassMinchoBeam.description>
+  <MinchoWitchSummonMinchoGolemBerserk.label>Summon berserk minchogolem</MinchoWitchSummonMinchoGolemBerserk.label>
+  <MinchoWitchSummonMinchoGolemBerserk.description>Summons a golem with hard chocolate armors at the target point. It moves very dull, but it is very strong and sturdy. The minchogolem is a creature created from nothing and is very unstable. It's life is very short and out of control. The body collapses immediately upon death.</MinchoWitchSummonMinchoGolemBerserk.description>
+  <MinchoWitchMinchoFallout.label>mincho fallout</MinchoWitchMinchoFallout.label>
+  <MinchoWitchMinchoFallout.description>Summons a Mincho fallout beacon that triggers a "Mincho fallout" at the target. Mincho fallout is a phenomenon in which mutated mechanites are sprinkled from the sky, and when exposed to this Mincho fallout even little, a Mincho infection occurs and eventually becomes a Mincho.\n\nAlthough Mincho fallout has no effect on plants, it affects both humans and animals, that means the ecosystem in the area where Mincho fallout occurs will ruin. Before triggering a Mincho fallout, review whether colonists and animals have been evacuated, hunted as many wild animals as needed, and if you can smash the Mincho fallout beacon when needed.</MinchoWitchMinchoFallout.description>
+</LanguageData>

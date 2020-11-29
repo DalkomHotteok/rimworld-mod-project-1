@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+	<defName>MinchoGolem_Head</defName>
+	<label>head</label>
+	<hitPoints>40</hitPoints>
+	<solid>false</solid>
+	<bleedRate>0</bleedRate>
+	<skinCovered>true</skinCovered>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+	<tags>
+		<li>TalkingSource</li>
+		<li>SightSource</li>
+		<li>HearingSource</li>
+	</tags>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+	<defName>MinchoGolem_Core</defName>
+	<label>minchogolem core</label>
+	<hitPoints>25</hitPoints>
+	<solid>true</solid>
+	<bleedRate>0</bleedRate>
+	<skinCovered>false</skinCovered>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+	<tags>
+		<li>ConsciousnessSource</li>
+	</tags>
+	<canSuggestAmputation>false</canSuggestAmputation>
+	<frostbiteVulnerability>1</frostbiteVulnerability>
+  </BodyPartDef>
+  
+  
+  <BodyPartDef>
+	<defName>MinchoGolem_Torso</defName>
+	<label>torso</label>
+	<hitPoints>55</hitPoints>
+	<solid>false</solid>
+	<bleedRate>0</bleedRate>
+	<skinCovered>true</skinCovered>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+	<canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>MinchoGolem_Shoulder</defName>
+    <label>shoulder</label>
+    <hitPoints>45</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>MinchoGolem_Arm</defName>
+    <label>arm</label>
+    <hitPoints>45</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>MinchoGolem_Hand</defName>
+    <label>hand</label>
+    <hitPoints>35</hitPoints>
+    <frostbiteVulnerability>0.5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  
+    <BodyPartDef>
+    <defName>MinchoGolem_Waist</defName>
+    <label>waist</label>
+	<conceptual>true</conceptual>
+    <tags>
+		<li>BreathingSource</li>
+    </tags>
+  </BodyPartDef>
+  
+    <BodyPartDef>
+    <defName>MinchoGolem_Leg</defName>
+    <label>leg</label>
+    <hitPoints>45</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>MinchoGolem_Foot</defName>
+    <label>foot</label>
+    <hitPoints>40</hitPoints>
+    <frostbiteVulnerability>0.5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+</Defs>

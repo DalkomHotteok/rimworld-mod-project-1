@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <HediffDef>
+    <defName>MinchoWitch_Iced_Brain</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Iced brain</label>
+    <description>It's a phenomenon that occurs when the mutated mechanites temporarily stays in the brain, which absorbs the neural heat of the brain instead. In this process, it gives the consumer a strong freshness. Occurs when large amounts of mintchoco or concentrated mechanites are taken at once, such as MintchocoCake or minchowitch's potion. Because minchowitch's  brain is very sensitive to mechanites , this happens instead of ice-cream headache when eating mintchoco.</description>
+	<descriptionHyperlinks>
+		<ThingDef>Mincho_Mintchoco</ThingDef>
+		<ThingDef>Mincho_MintchocoHalfGallon</ThingDef>
+		<ThingDef>Mincho_MintchocoCake</ThingDef>
+		<ThingDef>MinchoWitch_Potion</ThingDef>
+		<HediffDef>Mincho_Brain_freeze</HediffDef>
+	</descriptionHyperlinks>
+    <defaultLabelColor>(0.79,0.66,1)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Discoverable">
+        <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+        <discoverLetterLabel>{0} become Iced brain</discoverLetterLabel>
+        <discoverLetterText>{0} is so refreshed that head is like freezing. {0} can fast reduce the entropy (neural heat) caused by using psycast.</discoverLetterText>
+        <letterType>PositiveEvent</letterType>
+        <messageType>PositiveEvent</messageType>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <PsychicEntropyRecoveryRate>1.1</PsychicEntropyRecoveryRate>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

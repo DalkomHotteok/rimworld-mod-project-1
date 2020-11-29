@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnKindDef>
+		<defName>Mincho_NPC_Infection</defName>
+		<label>mincho infected outlander</label>
+		<race>Mincho_ThingDef</race>
+		<combatPower>80</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Mincho_BackstoryTag</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelMoney>0</apparelMoney>
+	</PawnKindDef>
+
+	<PawnKindDef>
+		<defName>Mincho_Colonist_Infection</defName>
+		<label>mincho infected colonist</label>
+		<race>Mincho_ThingDef</race>
+		<combatPower>80</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Mincho_BackstoryTag</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelMoney>0</apparelMoney>
+	</PawnKindDef>
+</Defs>

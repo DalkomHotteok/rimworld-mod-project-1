@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>Mincho_Infection_Colonist</defName>
+		<!--Info-->
+		<backstoryInfo>
+			<slot>Childhood</slot>
+			<title>Mincho baptist</title>
+			<titleShort>baptist</titleShort>
+			<description>{PAWN_nameDef} was a colonist in the colony. However, {PAWN_nameDef} was "selected" by the Minchowitch and had the opportunity to ascend to the Mincho. \n\nOf course, may not have reflected {PAWN_nameDef}'s intention, but she's already become the Mincho, and she's no longer mind about it.</description>
+		</backstoryInfo>
+		<spawnCategories>
+			<li>Mincho_Infection_Colonist_BackstoryTag</li>
+		</spawnCategories>
+		<!--Skill-->
+		<skillGains>
+			<!--null-->
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>Mincho_Infection_Prisoner</defName>
+		<!--Info-->
+		<backstoryInfo>
+			<slot>Childhood</slot>
+			<title>Mincho unwanted salvation</title>
+			<titleShort>salvationed prisoner</titleShort>
+			<description>{PAWN_nameDef} was a prisoner in a colony. [Pawn_pronoun] was unfit to be the master of the Minchoes, so instead of killing, the Minchowitch showed mercy and turned {PAWN_nameDef} into the Mincho so that she could later find another master.</description>
+		</backstoryInfo>
+		<spawnCategories>
+			<li>Mincho_Infection_BackstoryTag</li>
+		</spawnCategories>
+		<!--Skill-->
+		<skillGains>
+			<!--null-->
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>Mincho_Infection_NPC</defName>
+		<!--Info-->
+		<backstoryInfo>
+			<slot>Childhood</slot>
+			<title>Mincho forced mercy</title>
+			<titleShort>mercied</titleShort>
+			<description>A colonist of another colony who was lucky to have a chance to visit your colony and become the Mincho. However, perhaps embarrassed by the her sudden change, she tries to get away from here quickly.</description>
+		</backstoryInfo>
+		<spawnCategories>
+			<li>Mincho_Infection_BackstoryTag</li>
+		</spawnCategories>
+		<!--Skill-->
+		<skillGains>
+			<!--null-->
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>Mincho_Infection_Pirate</defName>
+		<!--Info-->
+		<backstoryInfo>
+			<slot>Childhood</slot>
+			<title>Mincho liberated soul</title>
+			<titleShort>liberated</titleShort>
+			<description>{PAWN_nameDef} was a member of a hostile force in your colony. The Minchowitch turned [Pawn_pronoun] into Mincho to protect the things she loves and to free {PAWN_nameDef} from the evilness that comes from human nature. Of course, even if {PAWN_nameDef} doesn't want liberation, it doesn't matter.</description>
+		</backstoryInfo>
+		<spawnCategories>
+			<li>Mincho_Infection_BackstoryTag</li>
+		</spawnCategories>
+		<!--Skill-->
+		<skillGains>
+			<!--null-->
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>Mincho_Infection_Wildman</defName>
+		<!--Info-->
+		<backstoryInfo>
+			<slot>Childhood</slot>
+			<title>Mincho wanderer's end</title>
+			<titleShort>wanderer</titleShort>
+			<description>There is no group to guarantee human rights for those who return to nature and refuse to live as part of society. And {PAWN_nameDef} was become the Mincho by the Minchowitch. However, there is no one to be angry at [Pawn_pronoun]'s unilateral mutated.</description>
+		</backstoryInfo>
+		<spawnCategories>
+			<li>Mincho_Infection_BackstoryTag</li>
+		</spawnCategories>
+		<!--Skill-->
+		<skillGains>
+			<!--null-->
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>Mincho_Infection_Animal_Colony</defName>
+		<!--Info-->
+		<backstoryInfo>
+			<slot>Childhood</slot>
+			<title>Mincho another form of companion</title>
+			<titleShort>companion</titleShort>
+			<description>Even animals that do not pass the Harkness test due to lack of intelligence should be given a chance. The Minchowitch showed mercy so that even an animal could serve its master in another way. However, more research will be needed on whether Minchoes are intelligent at the human level.</description>
+		</backstoryInfo>
+		<spawnCategories>
+			<li>Mincho_Infection_BackstoryTag</li>
+		</spawnCategories>
+		<!--Skill-->
+		<skillGains>
+			<!--null-->
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>Mincho_Infection_Animal_Wild</defName>
+		<!--Info-->
+		<backstoryInfo>
+			<slot>Childhood</slot>
+			<title>Mincho subject</title>
+			<titleShort>subject</titleShort>
+			<description>It takes a lot of experimentation to turn a creature into a completely different species. And this experiment was successful!</description>
+		</backstoryInfo>
+		<spawnCategories>
+			<li>Mincho_Infection_BackstoryTag</li>
+		</spawnCategories>
+		<!--Skill-->
+		<skillGains>
+			<!--null-->
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>Mincho_Infection_Animal_Pirate</defName>
+		<!--Info-->
+		<backstoryInfo>
+			<slot>Childhood</slot>
+			<title>Mincho reborned</title>
+			<titleShort>reborned</titleShort>
+			<description>Minchowitch is so merciful that she never kill animals even if they try to hurt her loved ones. Not only that, it also gives chance for future inclusion in colony.</description>
+		</backstoryInfo>
+		<spawnCategories>
+			<li>Mincho_Infection_BackstoryTag</li>
+		</spawnCategories>
+		<!--Skill-->
+		<skillGains>
+			<!--null-->
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>Mincho_Infection_Animal_NPC</defName>
+		<!--Info-->
+		<backstoryInfo>
+			<slot>Childhood</slot>
+			<title>Mincho caravan's little friend</title>
+			<titleShort>lttle one</titleShort>
+			<description>Those animals that had just mutated into Mincho and were not subject to the master's control are going home according to their homing instinct. Well, unfortunately, the things she originally had changed and were completely absorbed into her body.</description>
+		</backstoryInfo>
+		<spawnCategories>
+			<li>Mincho_Infection_BackstoryTag</li>
+		</spawnCategories>
+		<!--Skill-->
+		<skillGains>
+			<!--null-->
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>Mincho_Infection_Undefined</defName>
+		<!--Info-->
+		<backstoryInfo>
+			<slot>Childhood</slot>
+			<title>Mincho variant</title>
+			<titleShort>variant</titleShort>
+			<description>{PAWN_nameDef} was get chance to be the Mincho!</description>
+		</backstoryInfo>
+		<spawnCategories>
+			<li>Mincho_Infection_BackstoryTag</li>
+		</spawnCategories>
+		<!--Skill-->
+		<skillGains>
+			<!--null-->
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+</Defs>

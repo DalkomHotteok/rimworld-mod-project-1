@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MinchoFallout.label>mincho fallout</MinchoFallout.label>
+  <MinchoFallout.description>Mincho fallout caused by Mincho fallout beacon is slowly settling over this entire region. Any living thing not under a roof, except for plants, will be slowly mutated.</MinchoFallout.description>
+  <MinchoFallout.descriptionFuture>a cloud of Mincho fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], mutating outdoor animal.</MinchoFallout.descriptionFuture>
+  <MinchoFallout.endMessage>The worst of the Mincho fallout has settled.</MinchoFallout.endMessage>
+  <MinchoFallout.letterText>Because of Mincho fallout caused by Mincho fallout beacon, released mutated mechanites over this entire region.\n\nAny person or creature not under a roof will be slowly infected by mutated mechanites settling out of the atmosphere.\n\nIt continues as long as it does not destroy the Mincho fallout beacon.</MinchoFallout.letterText>
+</LanguageData>

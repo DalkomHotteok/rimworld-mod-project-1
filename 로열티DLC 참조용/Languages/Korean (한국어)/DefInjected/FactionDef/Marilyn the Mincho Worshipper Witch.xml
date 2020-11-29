@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- MinchoWitch's new colony -->
+  <MinchoWitch_PlayerFaction.label>민초마녀의 새로운 정착지</MinchoWitch_PlayerFaction.label>
+  <!-- It is the colony of the Mincho. -->
+  <MinchoWitch_PlayerFaction.description>민초마녀의 정착지입니다.</MinchoWitch_PlayerFaction.description>
+  <!-- colonist -->
+  <MinchoWitch_PlayerFaction.pawnSingular>정착민</MinchoWitch_PlayerFaction.pawnSingular>
+  <!-- colonists -->
+  <MinchoWitch_PlayerFaction.pawnsPlural>정착민들</MinchoWitch_PlayerFaction.pawnsPlural>
+</LanguageData>

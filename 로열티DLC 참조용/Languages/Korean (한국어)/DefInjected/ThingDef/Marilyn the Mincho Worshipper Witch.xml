@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- cure mincho infection mech serum -->
+  <MinchoWitch_Cure_Serum.label>민초감염 치료 혈청</MinchoWitch_Cure_Serum.label>
+  <!-- A serum that is injected with specially-adjusted mutated mechanites that binds to the mutated mechanites in the body and ejects it out of the body. Deformation of the body caused by the infection cannot be cured. -->
+  <MinchoWitch_Cure_Serum.description>특수 조정된 변종 메카나이트를 투여함으로써 체내의 변종 메카나이트와 결합해 몸 밖으로 배출시키는 혈청입니다. 감염이 진행되어 나타난 신체의 변형은 치료하지 못합니다.</MinchoWitch_Cure_Serum.description>
+  <!-- Use cure mincho infection mech serum -->
+  <MinchoWitch_Cure_Serum.comps.0.useLabel>민초감염 치료 혈청 투여</MinchoWitch_Cure_Serum.comps.0.useLabel>
+  <!-- minchowitch's potion -->
+  <MinchoWitch_Potion.label>민초마녀의 묘약</MinchoWitch_Potion.label>
+  <!-- It's a sweet potion made by a minchowitch. It's so sweet that teeth are rotting, and so fresh that head is frozen. Mechanites, which used to make up the body of mincho, is added to the potion. While these mechanites continue to give the consumer a strong sense of pleasure during the delivery of the potion, they slowly decompose their bodies and turn them into "Mincho" if they stop taking them for a long time. Minchowitch and mincho is immune to this "Infection."\n\nThose who wanted a greater sense of pleasure than the usual drugs were addicted to this and ended up becoming mincho. But this is what the minchowitch wanted. -->
+  <MinchoWitch_Potion.description>민초마녀가 만든 달콤한 묘약입니다. 이가 썩을 정도로 달고, 머리가 얼어버릴 정도로 상쾌합니다. 이것을 마시면 강한 쾌감을 얻을 수 있습니다.\n\n묘약에는 민초의 신체를 구성하는 메카나이트가 농축되어 있습니다. 민트초코를 먹어도 신체에 이상 없듯이 이 묘약도 위험하지 않습니다. 하지만 많은 이들이 그 안정성을 믿고 남용하다 민초가 되어버리고 말았습니다.\n\n과용하면 장기중 일부가 메카나이트에 감염됩니다. 해당 장기를 완전히 교체해야 감염을 제거할 수 있습니다. 치료시 감염 증상의 진도를 늦출 수 있지만, 완전히 치료하는것은 불가능합니다.</MinchoWitch_Potion.description>
+  <!-- Inject {0} -->
+  <MinchoWitch_Potion.ingestible.ingestCommandString>{0} 투여</MinchoWitch_Potion.ingestible.ingestCommandString>
+  <!-- Injecting {0}. -->
+  <MinchoWitch_Potion.ingestible.ingestReportString>{0} 투여하는 중.</MinchoWitch_Potion.ingestible.ingestReportString>
+  <!-- minchowitch's hat -->
+  <MinchoWitch_Hat.label>민초마녀의 모자</MinchoWitch_Hat.label>
+  <!-- It is a hat worn by the minchowitch. A young mincho lives on top of it. Originally, it was to protect immature mincho, and even though mincho has grown up to a certain extent, young mincho was already satisfied with top of minchowitch's hats, so mincho never thought of coming down.\n\nOn the other hand, this young mincho lives on top of a hat, and instead of lowering the over-sensitive psychic sensitivity of the minchowitch, it physically cools the head to quickly dissipate neural heat. -->
+  <MinchoWitch_Hat.description>민초마녀가 쓰고 다니는 모자로, 위에 어린 민초가 올라가 살고 있습니다. 원래는 아직 미성숙한 민초를 보호하기 위함이었으며, 어느정도 성장할때 까지만 모자위에서 돌봐주려 했지만 어린 민초는 이미 모자위가 마음에 들어 버리는 바람에 내려올 생각을 전혀 하지 않고 있습니다.\n\n한편 이렇게 어린 민초가 모자 위에 살면서 민초마녀의 과하게 민감한 정신 민감도를 낮춰버리는 대신에 머리를 물리적으로 식혀주어 신경열을 빠르게 없애줍니다.</MinchoWitch_Hat.description>
+  <!-- minchowitch lingerie -->
+  <MinchoWitch_Lingerie.label>민초마녀의 란제리</MinchoWitch_Lingerie.label>
+  <!-- This is a lingerie worn by the minchowitch. The upper lingerie is boldly open, so doubt whether it acts as an lingerie. The bottom is a pair of tights and stockings that are all part of the garter belt. Minchowitch doesn't wear any other clothes inside her coat except for this one. All the people who pointed out this became her servants. -->
+  <MinchoWitch_Lingerie.description>민초마녀의 란제리입니다. 위쪽 란제리는 과감하게 앞이 열려있어 란제리의 역할을 하고 있는지는 조금 의심스럽습니다. 아래쪽은 가터벨트 일체형인 팬티와 스타킹입니다. 민초마녀는 이 내의 말고는 외투 안에 다른 옷을 입지 않습니다. 이를 지적한 사람들은 모두 그녀의 하수인이 되었습니다.</MinchoWitch_Lingerie.description>
+  <!-- minchowitch robe -->
+  <MinchoWitch_Robe.label>민초마녀의 로브</MinchoWitch_Robe.label>
+  <!-- This is a robe worn by the minchowitch. The front part is open, so it's very efficient to cool down the neural heat after using psycast. -->
+  <MinchoWitch_Robe.description>민초마녀가 입고 다니는 로브입니다. 앞부분이 열려 있어 초능력을 쓰고 난 다음 발생한 신경열을 식히는 데 매우 효율적입니다.</MinchoWitch_Robe.description>
+  <!-- minchofallout beacon -->
+  <MinchoFalloutBeacon.label>민초 낙진 비컨</MinchoFalloutBeacon.label>
+  <!-- This is a special psychic beacon that triggers a ""Mincho fallout"" at the target. Mincho fallout is a phenomenon in which mutated mechanites are sprinkled from the sky, and when exposed to this Mincho fallout even little, a Mincho infection occurs and eventually becomes a Mincho.\n\nMincho fallout was one of the most important elements of the ""Marilyn Plan"" along with the Marilyn herself. It was to cause a Mincho fallout at the base of the forces that were hostile to the empire, and let Marilyn take control of these Minchos and use them as soldiers.\n\nMarilyn herself didn't know about the satellite's control, but it was in her hand. -->
+  <MinchoFalloutBeacon.description>제국의 비밀 인공위성을 조종해서 "민초 낙진"을 유발시키는 특수한 초능력 비컨입니다. 민초 낙진은 변종 메카나이트가 하늘에서 뿌려져 오는 현상으로, 이 민초 낙진에 노출되면 민초 감염이 발생하고, 결국 민초가 돼버립니다.\n\n민초 낙진은 마릴린 본인과 함께 "마릴린 계획"의 제일 중요한 요소 중 하나였습니다. 제국에 적대하는 세력의 거점에 민초 낙진을 발생시키고, 마릴린이 여기서 발생한 민초들을 통솔하여 병사로 활용하게 하는것이였죠.\n\n인공위성의 제어권은 마릴린 본인은 모르고 있었지만 어느샌가 그녀 손안에 있었습니다.</MinchoFalloutBeacon.description>
+  <!-- minchogolem -->
+  <MinchoWitch_MinchoGolem.label>민초골렘</MinchoWitch_MinchoGolem.label>
+  <!-- A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. -->
+  <MinchoWitch_MinchoGolem.description>딱딱한 초콜릿 장갑을 두른 골렘입니다. 움직임이 매우 둔하지만, 매우 강인하고 튼튼합니다. 민초 골렘은 무에서 창조된 생명체로, 매우 불안정합니다. 수명이 매우 짧으며 통제가 불가능합니다. 사망 시 신체가 바로 무너져 내립니다.</MinchoWitch_MinchoGolem.description>
+  <!-- left fist -->
+  <MinchoWitch_MinchoGolem.tools.0.label>왼쪽 주먹</MinchoWitch_MinchoGolem.tools.0.label>
+  <!-- right fist -->
+  <MinchoWitch_MinchoGolem.tools.1.label>오른쪽 주먹</MinchoWitch_MinchoGolem.tools.1.label>
+  <!-- head -->
+  <MinchoWitch_MinchoGolem.tools.2.label>머리</MinchoWitch_MinchoGolem.tools.2.label>
+</LanguageData>

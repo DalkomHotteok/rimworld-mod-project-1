@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- install mintchoco limb -->
+  <InstallMinchoWitch_MintchocoLimb.label>민트초코 사지 이식</InstallMinchoWitch_MintchocoLimb.label>
+  <!-- There's no reason must to do that, but turn limbs into mintchoco. -->
+  <InstallMinchoWitch_MintchocoLimb.description>꼭 그래야 할 이유는 없지만, 사지를 민트초코로 바꿉니다.</InstallMinchoWitch_MintchocoLimb.description>
+  <!-- Installing mintchoco limb. -->
+  <InstallMinchoWitch_MintchocoLimb.jobString>민트초코 사지 이식 중.</InstallMinchoWitch_MintchocoLimb.jobString>
+  <!-- remove mintchoco limb -->
+  <RemoveMinchoWitch_MintchocoLimb.label>민트초코 사지 제거</RemoveMinchoWitch_MintchocoLimb.label>
+  <!-- Remove mintchoco limb. -->
+  <RemoveMinchoWitch_MintchocoLimb.description>민트초코 사지를 제거합니다.</RemoveMinchoWitch_MintchocoLimb.description>
+  <!-- Removing mintchoco limb. -->
+  <RemoveMinchoWitch_MintchocoLimb.jobString>민트초코 사지 제거 중.</RemoveMinchoWitch_MintchocoLimb.jobString>
+</LanguageData>

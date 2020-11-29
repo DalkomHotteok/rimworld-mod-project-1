@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+	This is sample XML for modders.
+	If you want to automatically resolve texture of apparel, define ApparelBodyTypeResolver.PredefinedBodyTypeResolverDef. (in your Defs folder.)
+	"defName" must be same as defName of "BodyTypeDef", and you can choice alternative BodyTypeDef in "alternatives" field.
+-->
+<Defs>
+	<ApparelBodyTypeResolver.PredefinedBodyTypeResolverDef>
+		<defName>MinchoWitch_Bodytype</defName>
+		<alternatives>
+			<li>Female</li>
+			<li>Mincho_Large</li>
+		</alternatives>
+	</ApparelBodyTypeResolver.PredefinedBodyTypeResolverDef>
+</Defs>

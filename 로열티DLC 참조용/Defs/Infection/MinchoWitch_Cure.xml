@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="MechSerumBase">
+		<defName>MinchoWitch_Cure_Serum</defName>
+		<label>cure mincho infection mech serum</label>
+		<description>A serum that is injected with specially-adjusted mutated mechanites that binds to the mutated mechanites in the body and ejects it out of the body. Deformation of the body caused by the infection cannot be cured.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mincho_Infection</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>MinchoWitch/Item/MinchoWitch_Cure_Serum/Texture</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>10</stackLimit>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<recipeMaker>
+			<recipeUsers>
+				<li>DrugLab</li>
+				<li>Mincho_MinchoBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Mincho_MintLeaves>50</Mincho_MintLeaves>
+			<Mincho_Mintchoco>75</Mincho_Mintchoco>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Use cure mincho infection mech serum</useLabel>
+				<useDuration>600</useDuration>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>MinchoWitch.CompUseEffect_CureMinchoInfection</compClass>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>CompUseEffect_DestroySelf</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--<RecipeDef ParentName="Mincho_FoodRecipe_Bulk">
+		<defName>MinchoWitch_Make_Cure_Serum</defName>
+		<label>make cure mincho infection mech serum</label>
+		<description>Make ice creams with mint, and insert chocolate chips. Make ice cream that everyone likes with sweetness and exhilarating taste coexist.</description>
+		<jobString>Making mintchoco.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>5000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mincho_MintLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mincho_Mintchoco</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mincho_MintLeaves</li>
+				<li>Mincho_Mintchoco</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MinchoWitch_Cure_Serum>1</MinchoWitch_Cure_Serum>
+		</products>
+	</RecipeDef>-->
+
+</Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- wanderer minchowitch -->
+  <WandererJoin_MinchoWitch.label>방랑자 민초마녀 합류</WandererJoin_MinchoWitch.label>
+  <!-- Wanderer minchowitch joins: {PAWN_nameDef} -->
+  <WandererJoin_MinchoWitch.letterLabel>방랑자 민초마녀 합류</WandererJoin_MinchoWitch.letterLabel>
+  <!-- The Minchowitch came to this colony with an ominous chill. She's probably came here because of something related Mincho, but no one knows exactly what she's trying to do... -->
+  <WandererJoin_MinchoWitch.letterText>불길한 냉기를 내뿜으며 민초마녀가 이 정착지에 찾아왔습니다. 그녀는 아마도 민초와 관련된 일로 온 것이겠지만, 정확히 뭘 하려는 건지는 아무도 모릅니다...</WandererJoin_MinchoWitch.letterText>
+  <!-- wanderer minchowitch -->
+  <WandererJoin_MinchoWitch_Scenario.label>방랑자 민초마녀 합류</WandererJoin_MinchoWitch_Scenario.label>
+  <!-- Wanderer minchowitch joins: {PAWN_nameDef} -->
+  <WandererJoin_MinchoWitch_Scenario.letterLabel>방랑자 민초마녀 합류</WandererJoin_MinchoWitch_Scenario.letterLabel>
+  <!-- The Minchowitch came to this colony with an ominous chill. She's probably came here because of something related Mincho, but no one knows exactly what she's trying to do... -->
+  <WandererJoin_MinchoWitch_Scenario.letterText>불길한 냉기를 내뿜으며 민초마녀가 이 정착지에 찾아왔습니다. 그녀는 아마도 민초와 관련된 일로 온 것이겠지만, 정확히 뭘 하려는 건지는 아무도 모릅니다...</WandererJoin_MinchoWitch_Scenario.letterText>
+</LanguageData>

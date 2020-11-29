@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- ==================== Overcharge Rifle ==================== -->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_OverchargeRifle</defName>
+    <label>Overcharge rifle</label>
+    <description>A charged-shot assault rifle with improved battery power. Contained micro-circuit in the accumulator makes more efficient power system. It leads to improved firepower. \n\n'LC-37' model is White Guardian reconnaissance trooper`s standard Combat Equipment.</description>
+    <graphicData>
+      <texPath>Things/Weapons/OverCharge_Rifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>0</equippedAngleOffset>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>6</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>90</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>OverchargeRifle_Bullet</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>27</range>
+		<burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  	<!-- ==================== Charge Luger ==================== -->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>DH_ChargeLuger</defName>
+    <label>Charge luger</label>
+    <description>A charged-shot assault rifle with improved battery power. Contained micro-circuit in the accumulator makes more efficient power system. It leads to improved firepower. \n\n'LC-37' model is White Guardian reconnaissance trooper`s standard Combat Equipment.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Charge_Luger</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>0</equippedAngleOffset>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>6</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>C_luger_Bullet</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>27</range>
+		<burstShotCount>1</burstShotCount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  <!-- ==================== charge SMG ==================== -->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_ChargeSMG</defName>
+    <label>Charge SMG</label>
+    <description>A charged-shot Sub-Machine Gun. Short barrel and light weights are suitable for combat in spaceship and building. \n\n'LCS-21' model is Special Force White Confidence`s standard Combat Equipment.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Charge SMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>0</equippedAngleOffset>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>53000</WorkToMake>
+      <Mass>6</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>90</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>ChargeSMG_Bullet</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>24</range>
+		<burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeSMG</soundCast>
+        <soundCastTail>GunTail_Small</soundCastTail>
+        <muzzleFlashScale>7</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  
+  <!-- charge shotgun -->
+  
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_Charge_Shotgun</defName>
+    <label>Charge Shotgun</label>
+    <description>A charged-shot shotgun. Short barrel and light weights are suitable for combat in spaceship and building. \n\n'LC-90-S' model is Special Force White Confidence`s standard Combat Equipment.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Charge_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>58000</WorkToMake>
+      <Mass>5.3</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <ComponentSpacer>3</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ChargeShotgun</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>15</range>
+		<burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+  	<!-- ==================== Charge Catapult ==================== -->
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_ChargeCatapult</defName>
+    <label>Charge catapult</label>
+    <description>A pulse-charged rail-assisted lance weapon. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration rail. The White Guardian Weapon Lab (WGWL) research the technique of mechanoid, which shows high accuracy in electromagnetic induction. As a result, they created a human-handling Charge Lance. It means Model 'Catapult' was created. \n\nIt has increased the accuracy by install human fit optical equipment. But to be easy for human to handle, It had to reduce firepower.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Charge_Catapult_2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<equippedAngleOffset>0</equippedAngleOffset>
+    <soundInteract>Interact_ChargeLance</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>8</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.88</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.78</AccuracyLong>
+      <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>140</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_pulsecharge</defaultProjectile>
+        <warmupTime>1.7</warmupTime>
+        <range>27</range>
+		<burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>Shot_Catapult</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  
+</Defs>

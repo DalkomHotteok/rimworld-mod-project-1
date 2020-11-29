@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>MinchoWitch_MinchoGolem</defName>
+		<label>minchogolem</label>
+		<description>A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak.</description>
+		<statBases>
+			<MoveSpeed>5.5</MoveSpeed>
+			<MarketValue>4000</MarketValue>
+			<ComfyTemperatureMin>-273</ComfyTemperatureMin>
+			<ComfyTemperatureMax>30</ComfyTemperatureMax>
+			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<PainShockThreshold>5</PainShockThreshold>
+			<IncomingDamageFactor>0.5</IncomingDamageFactor>
+		</statBases>
+		<uiIconScale>1.75</uiIconScale>
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>60</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>60</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Hands</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>50</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FullHead</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<race>
+			<useMeatFrom>Cassowary</useMeatFrom>
+			<deathActionWorkerClass>MinchoWitch.DeathActionWorker_DestroyCorpse_MinchoGolem</deathActionWorkerClass>
+			<body>MinchoGolem</body>
+			<fleshType>Mincho_FleshTypeDef</fleshType>
+			<bloodDef>Mincho_Filth_BloodDef</bloodDef>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseBodySize>8</baseBodySize>
+			<baseHungerRate>3.5</baseHungerRate>
+			<baseHealthScale>10.0</baseHealthScale>
+			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+			<leatherDef>Leather_Dog</leatherDef>
+			<trainability>None</trainability>
+			<gestationPeriodDays>60</gestationPeriodDays>
+			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+			<wildness>1.0</wildness>
+			<lifeExpectancy>220</lifeExpectancy>
+			<willNeverEat>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+			</willNeverEat>
+			<lifeStageAges>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0</minAge>
+					<soundCall>Pawn_MinchoGolem_Myack</soundCall>
+					<soundAngry>Pawn_MinchoGolem_Myack</soundAngry>
+					<soundWounded>Pawn_MinchoGolem_Wounded</soundWounded>
+					<soundDeath>Pawn_MinchoGolem_Death</soundDeath>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<hediffGiverSets>
+				<li>MinchoGolem_HediffGiverSet</li>
+			</hediffGiverSets>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+	</ThingDef>
+
+
+	<HediffGiverSetDef>
+		<defName>MinchoGolem_HediffGiverSet</defName>
+		<hediffGivers>
+
+			<!-- Environmental -->
+			<li Class="HediffGiver_Heat">
+				<hediff>Heatstroke</hediff>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffDef>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defName>MinchoWitch_MinchoGolem_NoPain</defName>
+		<label>Golem's toughness</label>
+		<description>Golem's toughness</description>
+		<lethalSeverity>1</lethalSeverity>
+		<descriptionHyperlinks>
+			<ThingDef>MinchoWitch_MinchoGolem</ThingDef>
+		</descriptionHyperlinks>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>0.9</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>permanent</label>
+				<becomeVisible>false</becomeVisible>
+				<painFactor>0</painFactor>
+			</li>
+		</stages>
+	</HediffDef>
+
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>MinchoWitch_MinchoGolem</defName>
+		<label>minchogolem</label>
+		<race>MinchoWitch_MinchoGolem</race>
+		<combatPower>5000</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>MinchoWitch/MinchoGolem/Texture</texPath>
+					<drawSize>5</drawSize>
+					<shadowData>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>MinchoWitch/MinchoGolem/Texture</texPath>
+					<drawSize>5</drawSize>
+				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+					<!--<bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>ThrumboHorn</thing>-->
+				</butcherBodyPart>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+</Defs>

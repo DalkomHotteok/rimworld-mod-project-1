@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="MakeableDrugBase">
+		<defName>MinchoWitch_Potion</defName>
+		<label>minchowitch's potion</label>
+		<description>It's a sweet potion made by a minchowitch. It's so sweet that teeth are rotting, and so fresh that head is frozen. Mechanites, which used to make up the body of mincho, is added to the potion. While these mechanites continue to give the consumer a strong sense of pleasure during the delivery of the potion, they slowly decompose their bodies and turn them into "Mincho" if they stop taking them for a long time. Minchowitch and mincho is immune to this "Infection."\n\nThose who wanted a greater sense of pleasure than the usual drugs were addicted to this and ended up becoming mincho. But this is what the minchowitch wanted.</description>
+		<descriptionHyperlinks>
+			<HediffDef>Mincho_Infection</HediffDef>
+			<ThingDef>Mincho_ThingDef</ThingDef>
+			<HediffDef>MinchoWitch_PotionHigh</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>MinchoWitch/Item/Drug/MinchoWitch_Potion</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.65</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>350</WorkToMake>
+			<MarketValue>30</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<drugCategory>Hard</drugCategory>
+			<foodType>Processed, Fluid</foodType>
+			<baseIngestTicks>80</baseIngestTicks>
+			<ingestSound>Ingest_Inject</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+				<west>
+					<offset>(-0.25,0,0)</offset>
+				</west>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Inject {0}</ingestCommandString>
+			<ingestReportString>Injecting {0}.</ingestReportString>
+			<useEatingSpeedStat>false</useEatingSpeedStat>
+			<chairSearchRadius>0</chairSearchRadius>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MinchoWitch_PotionHigh</hediffDef>
+					<severity>0.5</severity>
+					<doToGeneratedPawnIfAddicted>false</doToGeneratedPawnIfAddicted>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Mincho_MintLeaves>20</Mincho_MintLeaves>
+			<Mincho_Mintchoco>5</Mincho_Mintchoco>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<!--<chemical>MinchoWitch_Potion</chemical>-->
+				<!--<addictiveness>0.5</addictiveness>-->
+				<!--중독성-->
+				<!--<minToleranceToAddict>0.51</minToleranceToAddict>-->
+				<!--최소중독-->
+				<!--<existingAddictionSeverityOffset>0.50</existingAddictionSeverityOffset>-->
+				<!--복용당중독심각-->
+				<!--<needLevelOffset>1.0</needLevelOffset>-->
+				<!--복용당중독필요-->
+				<isCombatEnhancingDrug>false</isCombatEnhancingDrug>
+				<!--전투용-->
+				<listOrder>1020</listOrder>
+				<!--<largeOverdoseChance>0</largeOverdoseChance>-->
+				<!--과다복용-->
+			</li>
+		</comps>
+	</ThingDef>
+
+	<HediffDef>
+		<defName>MinchoWitch_PotionHigh</defName>
+		<label>minchowitch's potion cool</label>
+		<description>Drinking the potion made by the Minchowitch gives a strong refreshing feeling to the whole body.</description>
+		<hediffClass>Hediff_High</hediffClass>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.75</severityPerDay>
+				<!-- 1일당 취기감소-->
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>ingest minchowitch's potion</label>
+			</li>
+			<li>
+				<minSeverity>0.51</minSeverity>
+				<label>mechanites tolerance exceeded</label>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Mincho_Infection</hediff>
+						<mtbDays>0.0001</mtbDays>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThoughtDef>
+		<defName>MinchoWitch_PotionHigh</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>MinchoWitch_PotionHigh</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>minchowitch's potion cool</label>
+				<description>I feel refreshed all over.</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+			<li>
+				<label>ignoring the Minchowitch's warning</label>
+				<description>she told me to drink it once a day, but... What's the big deal?</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<HediffDef>
+		<defName>MinchoWitch_PotionHigh_MinchoWitchOnly</defName>
+		<label>minchowitch's potion cool</label>
+		<description>Drinking the potion made by the Minchowitch gives a strong refreshing feeling to the whole body. However, the effect does not last long due to the strong detoxification power of the Minchowitch itself.</description>
+		<hediffClass>Hediff_High</hediffClass>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+				<!-- 1일당 취기감소-->
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>ingest minchowitch's potion</label>
+			</li>
+			<li>
+				<minSeverity>0.51</minSeverity>
+				<label>the privileges of the Minchowitch</label>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThoughtDef>
+		<defName>MinchoWitch_PotionHigh_MinchoWitchOnly</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>MinchoWitch_PotionHigh_MinchoWitchOnly</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>minchowitch's potion cool</label>
+				<description>That ambrosia makes me feel more relaxed, and gives me energy at the same time.</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+			<li>
+				<label>drink potions as much as one likes</label>
+				<description>Poor people. It's a privilege of me and the Mincho to drink this potion as much as likes.</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<HediffDef>
+		<defName>MinchoWitch_PotionHigh_MinchoOnly</defName>
+		<label>minchowitch's potion cool</label>
+		<description>Drinking the potion made by the Minchowitch gives a strong refreshing feeling to the whole body. However, the effect does not last long due to the strong detoxification power of the Mincho itself.</description>
+		<hediffClass>Hediff_High</hediffClass>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<!-- 1일당 취기감소-->
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>ingest minchowitch's potion</label>
+			</li>
+			<li>
+				<minSeverity>0.51</minSeverity>
+				<label>the privileges of the Mincho</label>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThoughtDef>
+		<defName>MinchoWitch_PotionHigh_MinchoOnly</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>MinchoWitch_PotionHigh_MinchoOnly</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>minchowitch's potion cool</label>
+				<description>That ambrosia makes me feel more relaxed, and gives me energy at the same time.</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+			<li>
+				<label>drink potions as much as one likes</label>
+				<description>I drank the potion that the witch made me several times, but I shouldn't give it to humans many times. Why?</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

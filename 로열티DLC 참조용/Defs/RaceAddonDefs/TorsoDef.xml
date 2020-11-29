@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyTypeDef>
+    <defName>MinchoWitch_Bodytype</defName>
+    <headOffset>(0.0, 0.34)</headOffset>
+    <bodyNakedGraphicPath>MinchoWitch/Body/A/Texture</bodyNakedGraphicPath>
+    <bodyDessicatedGraphicPath>MinchoWitch/Dessicated/Body/Texture</bodyDessicatedGraphicPath>
+  </BodyTypeDef>
+
+<Garam_RaceAddon.TorsoDef>
+	<defName>MinchoWitch_TorsoDef_A</defName>
+	<shaderType>Cutout</shaderType>
+<!--Body-->
+	<bodyPath>
+		<normal>MinchoWitch/Body/A/Texture</normal>
+		<damaged>MinchoWitch/Body/A/Texture</damaged>
+		<customs>
+			<!--null-->
+		</customs>
+	</bodyPath>
+	<bodyType>MinchoWitch_Bodytype</bodyType>
+<!--Head-->
+	<headPath>
+		<normal>MinchoWitch/Head/A/Texture</normal>
+		<damaged>MinchoWitch/Head/A/Texture</damaged>
+		<customs>
+			<!--null-->
+		</customs>
+	</headPath>
+	<skullPath>MinchoWitch/Dessicated/Head/Texture</skullPath>
+	<stumpPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</stumpPath>
+	<crownType>Average</crownType>	<!--[Average]: Original texture output (recommend) / [Narrow]: Narrow texture output-->
+<!--Position-->
+	<headTargetingOffsets>
+		<body_south>
+			<south>(0.0, 0.0)</south>
+			<west>(0.0, 0.0)</west>
+			<east>(0.0, 0.0)</east>
+		</body_south>
+		<body_north>
+			<north>(0.0, 0.0)</north>
+			<west>(0.0, 0.0)</west>
+			<east>(0.0, 0.0)</east>
+		</body_north>
+		<body_west>
+			<north>(0.0, 0.0)</north>
+			<south>(0.0, 0.0)</south>
+			<west>(0.0, 0.0)</west>
+		</body_west>
+		<body_east>
+			<north>(0.0, 0.0)</north>
+			<south>(0.0, 0.0)</south>
+			<east>(0.0, 0.0)</east>
+		</body_east>
+	</headTargetingOffsets>
+</Garam_RaceAddon.TorsoDef>
+</Defs>

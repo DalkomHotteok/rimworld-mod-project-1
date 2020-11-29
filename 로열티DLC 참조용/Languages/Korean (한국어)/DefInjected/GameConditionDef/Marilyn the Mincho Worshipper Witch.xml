@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- mincho fallout -->
+  <MinchoFallout.label>민초 낙진</MinchoFallout.label>
+  <!-- Mincho fallout caused by Mincho fallout beacon is slowly settling over this entire region. Any living thing not under a roof, except for plants, will be slowly mutated. -->
+  <MinchoFallout.description>민초 낙진 비컨으로 인해 유발된 민초 낙진이 주변 지역을 완전히 덮기 시작합니다. 식물을 제외한 지붕 아래로 피하지 않는 모든 생명체가 서서히 변이합니다.</MinchoFallout.description>
+  <!-- a cloud of Mincho fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], mutating outdoor animal. -->
+  <MinchoFallout.descriptionFuture>민초 낙진 구름이 [gameConditionDuration_duration]의 [map_definite]주변을 뒤덮어 야외의 생명을 변이시키고 있습니다.</MinchoFallout.descriptionFuture>
+  <!-- The worst of the Mincho fallout has settled. -->
+  <MinchoFallout.endMessage>대부분의 낙진이 가라앉았습니다.</MinchoFallout.endMessage>
+  <!-- Because of Mincho fallout caused by Mincho fallout beacon, released mutated mechanites over this entire region.\n\nAny person or creature not under a roof will be slowly infected by mutated mechanites settling out of the atmosphere.\n\nIt continues as long as it does not destroy the Mincho fallout beacon. -->
+  <MinchoFallout.letterText>민초 낙진 비컨으로 인해 유발된 민초 낙진으로 인해 지역 전체에 변종 메카나이트가 뿌려지고 있습니다.\n\n지붕 아래에 있지 않는 사람이나 생물은 대기로부터 침점되는 변종 메카나이트에 점점 감염됩니다.\n\n민초 낙진 비컨을 파괴하지 않는 한 계속해서 지속합니다.</MinchoFallout.letterText>
+</LanguageData>

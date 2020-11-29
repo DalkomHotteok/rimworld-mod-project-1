@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef Name="SurgeryInstallMintchocoPartBase" ParentName="SurgeryInstallBodyPartArtificialBase" Abstract="True">
+		<dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mincho_MintchocoHalfGallon</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Mincho_MintchocoHalfGallon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>MinchoWitch_MintchocoLimb</defName>
+		<label>mintchoco limb</label>
+		<labelNoun>a mintchoco limb</labelNoun>
+		<description>Part of her body became mintchoco. It is caused by transplanting mintchoco to a limb through surgery or by Mincho infection. It's very inefficient compared to a normal body. Instead, I get less hungry.</description>
+		<priceImpact>false</priceImpact>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>0.50</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<hungerRateFactorOffset>-0.15</hungerRateFactorOffset>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Mincho_MintchocoHalfGallon</spawnThingOnRemoved>
+	</HediffDef>
+
+	<RecipeDef ParentName="SurgeryInstallMintchocoPartBase">
+		<defName>InstallMinchoWitch_MintchocoLimb</defName>
+		<label>install mintchoco limb</label>
+		<description>There's no reason must to do that, but turn limbs into mintchoco.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mincho_MintchocoHalfGallon</ThingDef>
+			<HediffDef>MinchoWitch_MintchocoLimb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing mintchoco limb.</jobString>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+			<li>Leg</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MinchoWitch_MintchocoLimb</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>RemoveMinchoWitch_MintchocoLimb</defName>
+		<label>remove mintchoco limb</label>
+		<description>Remove mintchoco limb.</description>
+		<descriptionHyperlinks>
+			<ThingDef>Mincho_MintchocoHalfGallon</ThingDef>
+			<HediffDef>MinchoWitch_MintchocoLimb</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing mintchoco limb.</jobString>
+		<removesHediff>MinchoWitch_MintchocoLimb</removesHediff>
+	</RecipeDef>
+</Defs>

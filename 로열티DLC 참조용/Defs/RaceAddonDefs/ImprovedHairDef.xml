@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<Garam_RaceAddon.ImprovedHairDef>
+	<defName>MinchoWitch_Hair_A</defName>
+	<label>MinchoWitch_Hair_A</label>
+	<hairGender>Female</hairGender>
+	<hairTags>
+		<li>MinchoWitch_HairTag</li>
+	</hairTags>
+<!--Texture-->
+	<shaderType>Cutout</shaderType>
+	<texPath>MinchoWitch/Hair/A/Upper/Texture</texPath>
+	<lowerPath>MinchoWitch/Null/Texture</lowerPath>
+<!--Draw-->
+	<drawnInBed>true</drawnInBed>
+</Garam_RaceAddon.ImprovedHairDef>
+
+</Defs>

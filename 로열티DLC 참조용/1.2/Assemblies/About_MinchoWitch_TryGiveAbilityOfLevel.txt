@@ -1,0 +1,28 @@
+// 현재 이 모드를 참고하여 종족 전용 초능력을 추가할 경우, 이 코드를 모방하여 만든 모드에선 종족 전용으로 초능력을 추가한다는 부분이 제대로 작동되지 않을 수 있습니다. 	
+// 이는 어느 한쪽 모드의 where !MinchoWithch_ability.MinchoWithchabilityStrings.Contains(ability.defName) 의 역할을 하는 코드가 먼저 작동하기 때문으로 보입니다.
+// 즉 한 종족은 제대로 자신의 초능력을 얻을 수 있지만, 다른 전용 초능력이 있는 종족은 코드가 우선 작동한 모드에서 정한 HashSet 이외에서 초능력을 얻기 때문입니다. (Image1 참고)
+
+// 한편 전용 초능력이 없는 종족은 모든 초능력을 다 쓸 수 있지만, 자신의 종족은 내가 추가한 초능력만 쓸 수 있고, 다른 종족도 그 종족만의 초능력을 쓸 수 있는 방법도 존재하기는 합니다.(Image2 참고)
+// A code 를 지우고, B code 를 if 문으로 바꾼 다음, C code의 if 조건에 pawnDefType.Equals("MinchoWitch") && 를 추가, D code를 else return true 로 바꾸세요 (어딜 바꾸는지는 MinchoWitch_TryGiveAbilityOfLevel.dll 혹은 github에 cs를 올린걸 보면 있습니다.)
+
+// 만약에 충돌을 피하고 싶다면 Transpilers 을 이용하여 바닐라 코드의 TryGiveAbilityOfLevel 부분에 !MinchoWithch_ability.MinchoWithchabilityStrings.Contains(ability.defName) 의역할 하는 코드를 각 모드마다 삽입하는 방법이 있습니다. 제가 예상하는 원리는 아래와 같습니다.
+// 1. 각 종족은 pawnDefType.Equals를 이용해자신의 초능력을 얻는다(이 단계에서는 아직 다른 종족은 내가 추가한 초능력을 얻지 못한다는 부분이 작동하지 않습니다), 그리고 마지막에 else return true 하므로 다른 prefix 한 코드가 작동합니다.
+// 2. 다른 종족의 prefix 가 끝나면, 이제 하모니를 통해 수정된 바닐라 코드가 실행됩니다.
+// 3. 바닐라 코드에는 이미 각 모드의 코드의 where !MinchoWithch_ability.MinchoWithchabilityStrings.Contains(ability.defName) 의역할 하는 부분이 삽입되어 있어서 전용 초능력이 없는 종족들은 바닐라의 초능력만 얻습니다. (혹은 별도 모드에서 추가한 종족 전용이 아닌 초능력)
+// 하지만 제가 IL 코드를 다룰 줄 모르기에 그리하지 못했습니다. 또한, 위에 제가 적은 것들은 어디까지나 저의 "예상" 이기 때문에 실제로 정확히 작동하는지는 알 수 없습니다. 그냥 일종의 아이디어입니다. (Image3 참고)
+
+
+-------
+
+// if you are using this mod to add race-specific ability, the addition of race-specific ability mod created by copying this code may not function properly.
+// This seems to be due to the code on either side being activated first. (!MinchoWithch_ability.MinchoWithchabilityStrings.Contains(ability.defName))
+// So, one race can get their own ability properly, while the other race get their ability outside of the HashSet in code - activated first. (See Image1)
+
+//On the other hand, a race without race own ability can use all of ability, but there is a way for other race to use their own ability said (See Image2)
+// Clear A code, change B code to if statement, and add if condition to C code "pawnDefType.Equals("MinchoWitch") &&" . And change the D code to "else return true." (You can see where you must to change it if you look at write on MinchoWitch_TryGiveAbilityOfLevel.dll or github's CS.)
+
+// if you want to avoid a collision, use "Transpilers" to "TryGiveAbilityOfLevel" part of vanilla code, insert each mod's code :  "!MinchoWithch_ability.MinchoWithchabilityStrings.Contains(ability.defName)". The principles I expect are as follows.
+// 1. Use "pawnDefType.Equals", each race gets its own ability (at this stage, it doesn't work that "other race don't get my added ability yet"), and at the end "else return true". so one other "prefix" code works.
+// 2. Once the "prefix" of the other race has been completed, the vanilla code modified through the harmony(Transpilers) will now be executed.
+// 3. Vanilla code already inserted the code each mod's "where !MinchoWithch_ability.MinchoWithchabilityStrings.Contains(ability.defName)" Any race with no race own ability get only vanilla ability (or the ability mod's not - race only - ability.)
+// but I couldn't because I didn't know how to handle IL code. Also, I don't know how much I wrote above is my "estimate" and it actually works. It's just an idea. (See Image3)

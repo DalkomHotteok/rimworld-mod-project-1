@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Mincho infection -->
+  <Alert_MinchoInfection>민초 감염</Alert_MinchoInfection>
+  <!-- Severe mutated mechanites infection is encroaching on the following colonist's body : \n\n{0}\n treatment may slow the process, but it is not possible to completely eliminate the disease. But you can make a special serum and treat it. Or... give up treatment and ascension to new appearance. -->
+  <Alert_MinchoInfectionDesc>심각한 변종 메카나이트 감염이 다음 정착민의 몸을 잠식하고 있습니다 : \n\n{0}\n치료를 통해 진행을 늦출 수는 있지만, 해당 질병을 완벽히 제거하는 것은 불가능합니다. 하지만 특수한 혈청을 만들어서 치료할 수 있습니다. 아니면... 치료를 포기하고 새로운 모습으로 승천 할 수 있습니다.</Alert_MinchoInfectionDesc>
+</LanguageData>

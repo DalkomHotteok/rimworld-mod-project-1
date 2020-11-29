@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MinchoWitch_PotionHigh.stages.0.label>minchowitch's potion cool</MinchoWitch_PotionHigh.stages.0.label>
+  <MinchoWitch_PotionHigh.stages.0.description>I feel refreshed all over.</MinchoWitch_PotionHigh.stages.0.description>
+  <MinchoWitch_PotionHigh.stages.1.label>ignoring the Minchowitch's warning</MinchoWitch_PotionHigh.stages.1.label>
+  <MinchoWitch_PotionHigh.stages.1.description>she told me to drink it once a day, but... What's the big deal?</MinchoWitch_PotionHigh.stages.1.description>
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.label>minchowitch's potion cool</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.label>
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.description>That ambrosia makes me feel more relaxed, and gives me energy at the same time.</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.0.description>
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.label>drink potions as much as one likes</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.label>
+  <MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.description>Poor people. It's a privilege of me and the Mincho to drink this potion as much as likes.</MinchoWitch_PotionHigh_MinchoWitchOnly.stages.1.description>
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.0.label>minchowitch's potion cool</MinchoWitch_PotionHigh_MinchoOnly.stages.0.label>
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.0.description>That ambrosia makes me feel more relaxed, and gives me energy at the same time.</MinchoWitch_PotionHigh_MinchoOnly.stages.0.description>
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.1.label>drink potions as much as one likes</MinchoWitch_PotionHigh_MinchoOnly.stages.1.label>
+  <MinchoWitch_PotionHigh_MinchoOnly.stages.1.description>I drank the potion that the witch made me several times, but I shouldn't give it to humans many times. Why?</MinchoWitch_PotionHigh_MinchoOnly.stages.1.description>
+  <Mincho_InfectionThought.stages.0.label>My stomach is hurt</Mincho_InfectionThought.stages.0.label>
+  <Mincho_InfectionThought.stages.0.description>My stomach is a little cold.</Mincho_InfectionThought.stages.0.description>
+  <Mincho_InfectionThought.stages.1.label>I've got a headache</Mincho_InfectionThought.stages.1.label>
+  <Mincho_InfectionThought.stages.1.description>My head is cold and I'm about to break...</Mincho_InfectionThought.stages.1.description>
+  <Mincho_InfectionThought.stages.2.label>My body smells like mint</Mincho_InfectionThought.stages.2.label>
+  <Mincho_InfectionThought.stages.2.description>I smell something fresh in my body. This is not my smell...</Mincho_InfectionThought.stages.2.description>
+  <Mincho_InfectionThought.stages.3.label>No no no no</Mincho_InfectionThought.stages.3.label>
+  <Mincho_InfectionThought.stages.3.description>It'slikeI'mnotmyselfheadhurtsstomachhurtsnonononoIwanttoeatmintchoco</Mincho_InfectionThought.stages.3.description>
+  <MinchoWitch_RaceRatio.stages.0.label>no Mincho</MinchoWitch_RaceRatio.stages.0.label>
+  <MinchoWitch_RaceRatio.stages.0.description>There's no Mincho in here. But it's not problem, if it's not there, I just make it.</MinchoWitch_RaceRatio.stages.0.description>
+  <MinchoWitch_RaceRatio.stages.1.label>serve to Mincho</MinchoWitch_RaceRatio.stages.1.label>
+  <MinchoWitch_RaceRatio.stages.1.description>Your Freshness, I swear to rule you as a master and serve you as a servant at the same time.</MinchoWitch_RaceRatio.stages.1.description>
+  <MinchoWitch_RaceRatio.stages.2.label>supreme happiness</MinchoWitch_RaceRatio.stages.2.label>
+  <MinchoWitch_RaceRatio.stages.2.description>I'm so happy that there are so many Mincho.</MinchoWitch_RaceRatio.stages.2.description>
+  <MinchoWitch_RaceRatio.stages.3.label>rule and serve</MinchoWitch_RaceRatio.stages.3.label>
+  <MinchoWitch_RaceRatio.stages.3.description>It's good to rule the Minchos, but it's also very happy to be ruled by them.</MinchoWitch_RaceRatio.stages.3.description>
+  <MinchoWitch_RaceRatio.stages.4.label>oblivion of hatred</MinchoWitch_RaceRatio.stages.4.label>
+  <MinchoWitch_RaceRatio.stages.4.description>I don't care the days when I was experimented by the Empire any more. I just want to live here with the Minchos forever.</MinchoWitch_RaceRatio.stages.4.description>
+  <Mincho_RaceRatio.stages.0.label>opinions on the Minchowitch</Mincho_RaceRatio.stages.0.label>
+  <Mincho_RaceRatio.stages.0.description>I'm so glad she does many things for us, but sometimes... I think she is going too far.  Such as transforms other race into my kind. I'm happy to have more of my kind, but play with other race make me more happy and... excited.</Mincho_RaceRatio.stages.0.description>
+  <MinchoWitch_MintchocoBiofilmThought.stages.0.label>Mintchoco wraps body around</MinchoWitch_MintchocoBiofilmThought.stages.0.label>
+  <MinchoWitch_MintchocoBiofilmThought.stages.0.description>It's a bit heavy, but it has a very refreshing scent. And... Hawn...</MinchoWitch_MintchocoBiofilmThought.stages.0.description>
+</LanguageData>

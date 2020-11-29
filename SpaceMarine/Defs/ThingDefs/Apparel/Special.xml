@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- smoke -->
+  <ThingDef ParentName="ApparelArmorPowerBase">
+    <defName>KR_smoke</defName>
+    <label>smoke armor</label>
+    <description>A variant of cataphract armor with a shoulder-mounted flamebolt launcher. This armor is slightly less protective than standard cataphract armor against normal damage, but is especially flame-resistant. The flamebolt launcher has very limited ammo and must be reloaded after use.\n\nPhoenixes specialize in clearing out very confined spaces full of enemies, as in underground or shipborne operations. They can absorb hits while moving down a corridor, fill rooms with flame, and emerge from the smoke unscathed.</description>
+    <statBases>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.85</ArmorRating_Heat>
+      <Insulation_Heat>40</Insulation_Heat>
+	  <Insulation_Cold>40</Insulation_Cold>
+	  <EquipDelay>22</EquipDelay>
+    </statBases>
+	<equippedStatOffsets>
+      <MoveSpeed>-1.1</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Chemfuel>40</Chemfuel>
+    </costList>
+    <graphicData>
+      <texPath>Things/Apparel/PowerArmor/ArmorDolGyeok/ArmorDolGyeok</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <scoreOffset>4</scoreOffset>
+      <wornGraphicPath>Things/Apparel/PowerArmor/ArmorDolGyeok/ArmorDolGyeok</wornGraphicPath>
+    </apparel>
+
+        <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>3</maxCharges>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountPerCharge>40</ammoCountPerCharge>
+        <baseReloadTicks>70</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>grenade</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>launch smoke grenade</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>True</onlyManualCast>
+        <range>12</range>
+		<burstShotCount>3</burstShotCount>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>0.1</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>Bullet_Smoke</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+  </ThingDef>
+<!-- smoke prestige -->
+  <ThingDef ParentName="ApparelArmorPowerBase">
+    <defName>KR_smokeprestige</defName>
+    <label>smoke armor prestige</label>
+    <description>A variant of cataphract armor with a shoulder-mounted flamebolt launcher. This armor is slightly less protective than standard cataphract armor against normal damage, but is especially flame-resistant. The flamebolt launcher has very limited ammo and must be reloaded after use.\n\nPhoenixes specialize in clearing out very confined spaces full of enemies, as in underground or shipborne operations. They can absorb hits while moving down a corridor, fill rooms with flame, and emerge from the smoke unscathed.</description>
+    <statBases>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.85</ArmorRating_Heat>
+      <Insulation_Heat>40</Insulation_Heat>
+	  <Insulation_Cold>40</Insulation_Cold>
+	  <EquipDelay>22</EquipDelay>
+    </statBases>
+	<equippedStatOffsets>
+      <MoveSpeed>-1.1</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Chemfuel>40</Chemfuel>
+    </costList>
+    <graphicData>
+      <texPath>Things/Apparel/PowerArmor/ArmorDolGyeok/ArmorDolGyeokPrestige</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <scoreOffset>4</scoreOffset>
+      <wornGraphicPath>Things/Apparel/PowerArmor/ArmorDolGyeok/ArmorDolGyeokPrestige</wornGraphicPath>
+    </apparel>
+
+        <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>3</maxCharges>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountPerCharge>40</ammoCountPerCharge>
+        <baseReloadTicks>70</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>grenade</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>launch smoke grenade</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>True</onlyManualCast>
+        <range>12</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <warmupTime>0.1</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>Bullet_Smoke</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  </Defs>

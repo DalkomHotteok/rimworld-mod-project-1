@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MinchoWitch.label>minchowitch</MinchoWitch.label>
+  <MinchoWitch.corePart.parts.6.customLabel>left lung</MinchoWitch.corePart.parts.6.customLabel>
+  <MinchoWitch.corePart.parts.7.customLabel>right lung</MinchoWitch.corePart.parts.7.customLabel>
+  <MinchoWitch.corePart.parts.8.customLabel>left kidney</MinchoWitch.corePart.parts.8.customLabel>
+  <MinchoWitch.corePart.parts.9.customLabel>right kidney</MinchoWitch.corePart.parts.9.customLabel>
+  <MinchoWitch.corePart.parts.11.parts.0.parts.1.customLabel>left eye</MinchoWitch.corePart.parts.11.parts.0.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.11.parts.0.parts.2.customLabel>right eye</MinchoWitch.corePart.parts.11.parts.0.parts.2.customLabel>
+  <MinchoWitch.corePart.parts.11.parts.0.parts.3.customLabel>left ear</MinchoWitch.corePart.parts.11.parts.0.parts.3.customLabel>
+  <MinchoWitch.corePart.parts.11.parts.0.parts.4.customLabel>right ear</MinchoWitch.corePart.parts.11.parts.0.parts.4.customLabel>
+  <MinchoWitch.corePart.parts.12.customLabel>left shoulder</MinchoWitch.corePart.parts.12.customLabel>
+  <MinchoWitch.corePart.parts.12.parts.0.customLabel>left clavicle</MinchoWitch.corePart.parts.12.parts.0.customLabel>
+  <MinchoWitch.corePart.parts.12.parts.1.customLabel>left arm</MinchoWitch.corePart.parts.12.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.12.parts.1.parts.0.customLabel>left humerus</MinchoWitch.corePart.parts.12.parts.1.parts.0.customLabel>
+  <MinchoWitch.corePart.parts.12.parts.1.parts.1.customLabel>left radius</MinchoWitch.corePart.parts.12.parts.1.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.12.parts.1.parts.2.customLabel>left hand</MinchoWitch.corePart.parts.12.parts.1.parts.2.customLabel>
+  <MinchoWitch.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>left pinky</MinchoWitch.corePart.parts.12.parts.1.parts.2.parts.0.customLabel>
+  <MinchoWitch.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>left ring finger</MinchoWitch.corePart.parts.12.parts.1.parts.2.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>left middle finger</MinchoWitch.corePart.parts.12.parts.1.parts.2.parts.2.customLabel>
+  <MinchoWitch.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>left index finger</MinchoWitch.corePart.parts.12.parts.1.parts.2.parts.3.customLabel>
+  <MinchoWitch.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>left thumb</MinchoWitch.corePart.parts.12.parts.1.parts.2.parts.4.customLabel>
+  <MinchoWitch.corePart.parts.13.customLabel>right shoulder</MinchoWitch.corePart.parts.13.customLabel>
+  <MinchoWitch.corePart.parts.13.parts.0.customLabel>right clavicle</MinchoWitch.corePart.parts.13.parts.0.customLabel>
+  <MinchoWitch.corePart.parts.13.parts.1.customLabel>right arm</MinchoWitch.corePart.parts.13.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.13.parts.1.parts.0.customLabel>right humerus</MinchoWitch.corePart.parts.13.parts.1.parts.0.customLabel>
+  <MinchoWitch.corePart.parts.13.parts.1.parts.1.customLabel>right radius</MinchoWitch.corePart.parts.13.parts.1.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.13.parts.1.parts.2.customLabel>right hand</MinchoWitch.corePart.parts.13.parts.1.parts.2.customLabel>
+  <MinchoWitch.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>right pinky</MinchoWitch.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <MinchoWitch.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>right ring finger</MinchoWitch.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>right middle finger</MinchoWitch.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <MinchoWitch.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>right index finger</MinchoWitch.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <MinchoWitch.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>right thumb</MinchoWitch.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <MinchoWitch.corePart.parts.15.customLabel>left leg</MinchoWitch.corePart.parts.15.customLabel>
+  <MinchoWitch.corePart.parts.15.parts.0.customLabel>left femur</MinchoWitch.corePart.parts.15.parts.0.customLabel>
+  <MinchoWitch.corePart.parts.15.parts.1.customLabel>left tibia</MinchoWitch.corePart.parts.15.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.15.parts.2.customLabel>left foot</MinchoWitch.corePart.parts.15.parts.2.customLabel>
+  <MinchoWitch.corePart.parts.15.parts.2.parts.0.customLabel>left little toe</MinchoWitch.corePart.parts.15.parts.2.parts.0.customLabel>
+  <MinchoWitch.corePart.parts.15.parts.2.parts.1.customLabel>left fourth toe</MinchoWitch.corePart.parts.15.parts.2.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.15.parts.2.parts.2.customLabel>left middle toe</MinchoWitch.corePart.parts.15.parts.2.parts.2.customLabel>
+  <MinchoWitch.corePart.parts.15.parts.2.parts.3.customLabel>left second toe</MinchoWitch.corePart.parts.15.parts.2.parts.3.customLabel>
+  <MinchoWitch.corePart.parts.15.parts.2.parts.4.customLabel>left big toe</MinchoWitch.corePart.parts.15.parts.2.parts.4.customLabel>
+  <MinchoWitch.corePart.parts.16.customLabel>right leg</MinchoWitch.corePart.parts.16.customLabel>
+  <MinchoWitch.corePart.parts.16.parts.0.customLabel>right femur</MinchoWitch.corePart.parts.16.parts.0.customLabel>
+  <MinchoWitch.corePart.parts.16.parts.1.customLabel>right tibia</MinchoWitch.corePart.parts.16.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.16.parts.2.customLabel>right foot</MinchoWitch.corePart.parts.16.parts.2.customLabel>
+  <MinchoWitch.corePart.parts.16.parts.2.parts.0.customLabel>right little toe</MinchoWitch.corePart.parts.16.parts.2.parts.0.customLabel>
+  <MinchoWitch.corePart.parts.16.parts.2.parts.1.customLabel>right fourth toe</MinchoWitch.corePart.parts.16.parts.2.parts.1.customLabel>
+  <MinchoWitch.corePart.parts.16.parts.2.parts.2.customLabel>right middle toe</MinchoWitch.corePart.parts.16.parts.2.parts.2.customLabel>
+  <MinchoWitch.corePart.parts.16.parts.2.parts.3.customLabel>right second toe</MinchoWitch.corePart.parts.16.parts.2.parts.3.customLabel>
+  <MinchoWitch.corePart.parts.16.parts.2.parts.4.customLabel>right big toe</MinchoWitch.corePart.parts.16.parts.2.parts.4.customLabel>
+  <MinchoGolem.label>minchogolem</MinchoGolem.label>
+  <MinchoGolem.corePart.parts.2.customLabel>left shoulder</MinchoGolem.corePart.parts.2.customLabel>
+  <MinchoGolem.corePart.parts.2.parts.0.customLabel>left arm</MinchoGolem.corePart.parts.2.parts.0.customLabel>
+  <MinchoGolem.corePart.parts.2.parts.0.parts.0.customLabel>left hand</MinchoGolem.corePart.parts.2.parts.0.parts.0.customLabel>
+  <MinchoGolem.corePart.parts.3.customLabel>right shoulder</MinchoGolem.corePart.parts.3.customLabel>
+  <MinchoGolem.corePart.parts.3.parts.0.customLabel>right arm</MinchoGolem.corePart.parts.3.parts.0.customLabel>
+  <MinchoGolem.corePart.parts.3.parts.0.parts.0.customLabel>right hand</MinchoGolem.corePart.parts.3.parts.0.parts.0.customLabel>
+  <MinchoGolem.corePart.parts.5.customLabel>left leg</MinchoGolem.corePart.parts.5.customLabel>
+  <MinchoGolem.corePart.parts.5.parts.0.customLabel>left foot</MinchoGolem.corePart.parts.5.parts.0.customLabel>
+  <MinchoGolem.corePart.parts.6.customLabel>right leg</MinchoGolem.corePart.parts.6.customLabel>
+  <MinchoGolem.corePart.parts.6.parts.0.customLabel>right foot</MinchoGolem.corePart.parts.6.parts.0.customLabel>
+</LanguageData>

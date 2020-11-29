@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Alert_MinchoInfection>Mincho infection</Alert_MinchoInfection>
+  <Alert_MinchoInfectionDesc>Severe mutated mechanites infection is encroaching on the following colonist's body : \n\n{0}\n treatment may slow the process, but it is not possible to completely eliminate the disease. But you can make a special serum and treat it. Or... give up treatment and ascension to new appearance.</Alert_MinchoInfectionDesc>
+</LanguageData>

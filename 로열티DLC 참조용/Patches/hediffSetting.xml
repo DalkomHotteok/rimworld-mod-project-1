@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--	<Operation Class="PatchOperationFindMod">
+		<success>Always</success>
+		<mods>
+			<li>2010102015</li>
+			<li>Mincho, The Mint Choco Slime</li>
+		</mods>		
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>	
+				<li Class="PatchOperationAdd">
+					<xpath>*/Garam_RaceAddon.RaceAddonThingDef[defName="Mincho_ThingDef"]/raceAddonSettings/hediffSetting/replacedHediffs</xpath>
+					<value>
+						<li>
+							<originalHediffDef>MinchoWitch_PotionHigh</originalHediffDef>
+							<replacedHediffDef>MinchoWitch_PotionHigh_MinchoOnly</replacedHediffDef>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+-->
+</Patch>

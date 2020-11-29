@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MinchoGolem_Head.label>head</MinchoGolem_Head.label>
+  <MinchoGolem_Core.label>minchogolem core</MinchoGolem_Core.label>
+  <MinchoGolem_Torso.label>torso</MinchoGolem_Torso.label>
+  <MinchoGolem_Shoulder.label>shoulder</MinchoGolem_Shoulder.label>
+  <MinchoGolem_Arm.label>arm</MinchoGolem_Arm.label>
+  <MinchoGolem_Hand.label>hand</MinchoGolem_Hand.label>
+  <MinchoGolem_Waist.label>waist</MinchoGolem_Waist.label>
+  <MinchoGolem_Leg.label>leg</MinchoGolem_Leg.label>
+  <MinchoGolem_Foot.label>foot</MinchoGolem_Foot.label>
+</LanguageData>

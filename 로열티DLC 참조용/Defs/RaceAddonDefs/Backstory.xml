@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--==========유년기==========-->
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>MinchoWitch_BackstoryChild</defName>
+		<backstoryInfo>
+			<title>Empire subject</title>
+			<titleShort>subject</titleShort>
+			<description>{PAWN_nameDef} was enslaved to the Empire and tested to handle the Mincho. But the experiment failed, and {PAWN_nameDef} escaped.</description>
+			<slot>Childhood</slot>
+		</backstoryInfo>
+		<skillGains>
+
+		</skillGains>
+		<forcedHediffs>
+
+		</forcedHediffs>
+		<workDisables>
+
+		</workDisables>
+		<spawnCategories>
+			<li>MinchoWitch_Backstory</li>
+		</spawnCategories>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+
+	<!--==========성년기==========-->
+	<Garam_RaceAddon.SimpleBackstoryDef>
+		<defName>MinchoWitch_BackstoryAdult</defName>
+		<backstoryInfo>
+			<title>Mincho worshipper witch</title>
+			<titleShort>minchowitch</titleShort>
+			<description>{PAWN_nameDef} has been worshipping Minchoes as her master, even after she escaped from the  Institute of psychic. She is using her psychic to transform every human, human-type creature in the world into the Mincho.</description>
+			<slot>Adulthood</slot>
+		</backstoryInfo>
+		<skillGains>
+
+		</skillGains>
+		<forcedHediffs>
+
+		</forcedHediffs>
+		<spawnCategories>
+			<li>MinchoWitch_Backstory</li>
+		</spawnCategories>
+	</Garam_RaceAddon.SimpleBackstoryDef>
+</Defs>
